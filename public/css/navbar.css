@@ -1,0 +1,49 @@
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #e7e7e7;
+    text-transform: uppercase;
+    min-height: 50px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: firebrick;
+    background-color: transparent;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 8px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    text-transform: none;
+}
+
+.dropdown-menu>li>a:hover {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: firebrick;
+    white-space: nowrap;
+}
+
+.navbar-default .navbar-nav>.open>a:hover{
+    color: firebrick;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+    color: firebrick;
+    background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-brand:hover {
+    cursor: pointer;
+}
