@@ -24,7 +24,6 @@ const AdminPageRaisedButtons = ({
         </Link>
         <br />
         <br />
-        hej
     </div>
 );
 
