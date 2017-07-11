@@ -33,6 +33,8 @@ const muiTheme = getMuiTheme({
 // this component handles all routes that are not defined
 const NotFound = () => <h1>404... The page is not found</h1>
 
+const EditNews = () => <h2>Administrera Nyheter Sidan</h2>
+
 //The Root component, All other componennts is descending of the root
 //The provider provides the routes with the store that handles the initialstate and updates it when called
 
@@ -46,8 +48,8 @@ const Routes = (
                 <Route path='signup' component={SignUpPageComponent}/>
                 <Route path='/admin' component={AdminPageComponent}>
                     <IndexRoute component={AddUserPageComponent}/>
-                    <Route path='/edituser' component={EditUserPageComponent}/>
-                    <Route path='/hej' component={NotFound}/>
+                    <Route path='/users' component={EditUserPageComponent}/>
+                    <Route path="/editnews" component={EditNews}/>
                 </Route>
                 <Route path='*' component={NotFound}/>
             </Route>

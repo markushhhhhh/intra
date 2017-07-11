@@ -7,6 +7,8 @@ import {renderAddUserPage, renderAddUserForm, renderComponent, unrenderComponent
 import {addUserToDB, updateUserInDB, subscribeToUsers, unsubscribeToUsers, updateUserToConf,getUserToConf} from './../../actions/configureUserActions.js'
 
 import AdminPageButtons from './adminpageComp/AdminPageButtons.js';
+import AdminPageButtons2 from './adminpageComp/AdminPageButtons2.js';
+
 import AddUserPage from './AddUserPage.js';
 
 
@@ -31,14 +33,15 @@ class AdminPage extends React.Component {
         return (
             <div>
                 <h1>AdminPage!</h1>
+                <AdminPageButtons2 />
                 {childrenWithProps}
-                <AdminPageButtons
-                    renderAddUserPagePropp={this.props.renderAddUserPage}
-                    renderAddUserFormPropp={this.props.renderAddUserForm}
-                    renderComponentPropp={this.props.renderComponent}
-                    unrenderComponentPropp={this.props.unrenderComponent}
-                    renderPropp={this.handleRendering.bind(this)}
-                />
+                {/*<AdminPageButtons*/}
+                    {/*renderAddUserPagePropp={this.props.renderAddUserPage}*/}
+                    {/*renderAddUserFormPropp={this.props.renderAddUserForm}*/}
+                    {/*renderComponentPropp={this.props.renderComponent}*/}
+                    {/*unrenderComponentPropp={this.props.unrenderComponent}*/}
+                    {/*renderPropp={this.handleRendering.bind(this)}*/}
+                {/*/>*/}
 
 
 

@@ -29,9 +29,9 @@ const initialState = {
         oldusername: ''
     },
     admincomponents: {
-        adduserformC: false,
-        userlistC: false,
-        edituserC: false,
+        adduserformC: true,
+        userlistC: true,
+        edituserC: true,
     }
 };
 
