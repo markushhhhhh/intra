@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+# Created by .ignore support plugin (hsz.mobi)
+npm-debug.log
+firebase-debug.log
+
+
+node_modules
+
+public/bundle.js
+public/bundle.js.map
+
+
+*/npm-debug.log
+*/**/npm-debug.log
+.idea/inspectionProfiles/
