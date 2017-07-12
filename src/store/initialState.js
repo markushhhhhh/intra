@@ -8,10 +8,11 @@ const initialState = {
         newsadmin: true,
     },
     components: {
-        adduserpage: false,
-        adduserformC: false,
-        userlistC: false,
-        edituserC: false,
+        admincomponents: {
+            adduserformC: false,
+            userlistC: false,
+            editindividualuserC: false,
+        }
     },
     conf: {
         users: [],
@@ -27,11 +28,6 @@ const initialState = {
             newsadmin: false
         },
         oldusername: ''
-    },
-    admincomponents: {
-        adduserformC: true,
-        userlistC: true,
-        edituserC: true,
     }
 };
 

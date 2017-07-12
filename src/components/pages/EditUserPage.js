@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 import UserList from './edituserpageComp/UserList.js';
-import IndividualUser from './edituserpageComp/IndividualUser.js'
+import IndividualUser2 from './edituserpageComp/IndividualUser2.js';
+import AddUserForm2 from './edituserpageComp/AddUserForm2.js';
 
 class EditUserPage extends React.Component {
 
@@ -14,7 +15,6 @@ class EditUserPage extends React.Component {
     }
 
     componentDidMount(){
-        this.props.renderComponent('RENDER_USERLIST');
         this.props.subscribeToUsers();
     }
 
@@ -24,8 +24,10 @@ class EditUserPage extends React.Component {
 
     handleClickOnUser = (user) => {
         this.props.getUserToConf(user);
-        this.props.unrenderComponent('UNRENDER_USERLIST');
         this.props.renderComponent('RENDER_INDIVIDUALUSER');
+        this.props.unrenderComponent('UNRENDER_USERLIST');
+        this.props.unrenderComponent('UNRENDER_ADDUSERFORM');
+
     };
 
     handleTextInput = (event) => {
@@ -40,8 +42,10 @@ class EditUserPage extends React.Component {
     handleSelectInput = (event, index, value)  => {
         let obj = {};
         let field = 'department';
-        let val = value;
+        let val = event.target.value;
+        console.log(val);
         obj[field] = val;
+        console.log(obj, ' här är objektet');
         this.props.updateUserToConf(obj);
     };
 
@@ -56,7 +60,13 @@ class EditUserPage extends React.Component {
     processForm = (event) => {
         // prevent default action. in this case, action is the form submission event
         event.preventDefault();
-        this.props.updateUserInDB(this.props.user, this.props.oldusername);
+        //this.props.firebasePromise();
+        console.log(event.target.name);
+        if(event.target.name === 'updateuser' && this.props.oldusername !== '') {
+            this.props.updateUserInDB(this.props.user, this.props.oldusername);
+        } else {
+            this.props.addUserToDB(this.props.user)
+        }
     };
 
 
@@ -67,13 +77,21 @@ class EditUserPage extends React.Component {
                     handleClickOnUserPropp={this.handleClickOnUser}
                     visiblePropp={this.props.userlistC}
                 />
-                <IndividualUser
+                <IndividualUser2
                     onSubmitPropp={this.processForm}
                     handleTextInputPropp={this.handleTextInput}
                     handleCheckboxInputPropp={this.handleCheckboxInput}
                     handleSelectInputPropp={this.handleSelectInput}
                     userPropp={this.props.user}
-                    visiblePropp={this.props.edituserC}
+                    visiblePropp={this.props.editindividualuserC}
+                />
+                <AddUserForm2
+                    onSubmitPropp={this.processForm}
+                    handleTextInputPropp={this.handleTextInput}
+                    handleCheckboxInputPropp={this.handleCheckboxInput}
+                    handleSelectInputPropp={this.handleSelectInput}
+                    userPropp={this.props.user}
+                    visiblePropp={this.props.adduserformC}
                 />
             </div>
         );

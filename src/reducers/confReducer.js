@@ -14,9 +14,24 @@ export default function confReducer(state = initState.conf, action) {
             };
             break;
         case 'UPDATE_USER_TO_CONF':
-
             return{...state,
                 user: {...state.user, ...action.payload}
+            };
+            break;
+        case  'RESET_USER':
+            return{...state,
+                user: {
+                    username: '',
+                    firstname: '',
+                    lastname: '',
+                    title: '',
+                    department: '',
+                    email: '',
+                    password: '',
+                    admin: false,
+                    newsadmin: false
+                },
+                oldusername: ''
             };
             break;
     }
