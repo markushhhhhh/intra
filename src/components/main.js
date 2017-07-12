@@ -6,7 +6,6 @@ import {Jumbotron, Grid, Button} from 'react-bootstrap';
 import HeaderAdmin from './HeaderAdmin.js'
 import Header from './Header';
 import Footer from './Footer';
-import LoginPageComponent from './pages/LoginPage.js'
 
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';

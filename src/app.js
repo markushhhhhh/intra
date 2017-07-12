@@ -14,9 +14,7 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 //Imported Components
 import Main from './components/main.js';
 import FirstPageComponent from './components/pages/Firstpage.js';
-import SignUpPageComponent from './components/pages/AddUserPage.js'
 import AdminPageComponent from './components/pages/AdminPage.js'
-import AddUserPageComponent from './components/pages/AddUserPage.js'
 import EditUserPageComponent from './components/pages/EditUserPage.js'
 
 
@@ -45,7 +43,6 @@ const Routes = (
             <Route path='/' component={Main}>
                 <IndexRoute component={FirstPageComponent}/>
                 <Route path="/second" component={NotFound}/>
-                <Route path='signup' component={SignUpPageComponent}/>
                 <Route path='/admin' component={AdminPageComponent}>
                     <IndexRoute component={EditUserPageComponent}/>
                     <Route path="/editnews" component={EditNews}/>

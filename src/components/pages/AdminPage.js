@@ -6,10 +6,8 @@ import { bindActionCreators } from 'redux';
 import {renderAddUserPage, renderAddUserForm, renderComponent, unrenderComponent} from './../../actions/componentsActions.js'
 import {addUserToDB, updateUserInDB, subscribeToUsers, unsubscribeToUsers, updateUserToConf, getUserToConf, resetUser, firebasePromise} from './../../actions/configureUserActions.js'
 
-import AdminPageButtons from './adminpageComp/AdminPageButtons.js';
 import AdminPageButtons2 from './adminpageComp/AdminPageButtons2.js';
 
-import AddUserPage from './AddUserPage.js';
 
 
 class AdminPage extends React.Component {
