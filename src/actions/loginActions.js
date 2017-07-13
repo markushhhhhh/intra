@@ -1,10 +1,45 @@
 import database from './../database.js'
 
-export function userLoginAction() {
+export function userLogin(activeUser) {
     console.log('In userLoginAction');
+return function (dispatch) {
+    const userRef = database.database().ref('usersDB/users');
+    userRef.once('value', snapshot => {
+        const x = snapshot.forEach((childVariable) => {
+            console.log(childVariable.key, ' username');
+            console.log(childVariable.val().password, ' password');
+            if(activeUser.username === childVariable.key && activeUser.password === childVariable.val().password){
+                dispatch(userLoginSuccess({admin: childVariable.val().admin, newsadmin: childVariable.val().newsadmin}));
+                console.log('Login Success!');
+                return true;
+            }
+        });
+        if (x !== true){
+            alert('Fel användarnamn eller lösenord, försök igen...');
+        }
+    });
+}
+}
+export function userLogout() {
+    return{
+        type: 'USER_LOGOUT'
+    }
 }
 
+export function updateActiveUser(obj) {
+    console.log('In updateActiveUser', obj)
+    return {
+        type: 'UPDATE_ACTIVEUSER',
+        payload: obj
+    }
+}
 
+function userLoginSuccess(permission){
+    return {
+        type: 'USER_LOGIN_SUCCESS',
+        payload: permission
+    }
+}
 
 /*
 export function testActionData(data) {

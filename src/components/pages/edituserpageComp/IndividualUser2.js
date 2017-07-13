@@ -13,7 +13,9 @@ const IndividualUser = ({
                             handleTextInputPropp,
                             handleCheckboxInputPropp,
                             handleSelectInputPropp,
+                            handleDeletePropp,
                             userPropp,
+                            oldusernamePropp,
                             visiblePropp
                         }) => (visiblePropp === true) ? (
 <form onSubmit={onSubmitPropp} name="updateuser">
@@ -21,6 +23,12 @@ const IndividualUser = ({
         controlId="formBasicText"
         validationState={null}
     >
+
+        <ControlLabel>Användare</ControlLabel>
+        <FormControl.Static>
+            {oldusernamePropp}
+        </FormControl.Static>
+
         <ControlLabel>Användarnamn</ControlLabel>
         <FormControl
             type="text"
@@ -107,8 +115,14 @@ const IndividualUser = ({
 
         <FormControl.Feedback />
         <HelpBlock>Validation is based on string length.</HelpBlock>
-        <Button className="btn btn-primary btn-large centerButton" type="submit">Uppdatera</Button>
-        <Button className="btn btn-danger btn-large centerButton">Radera</Button>
+        <Button
+            className="btn btn-primary btn-large centerButton"
+            type="submit"
+        >Uppdatera</Button>
+        <Button
+            className="btn btn-danger btn-large centerButton"
+            onClick={handleDeletePropp}
+        >Radera</Button>
 
 
     </FormGroup>
@@ -119,7 +133,9 @@ IndividualUser.propTypes = {
     handleTextInputPropp: PropTypes.func.isRequired,
     handleCheckboxInputPropp: PropTypes.func.isRequired,
     handleSelectInputPropp: PropTypes.func.isRequired,
+    handleDeletePropp: PropTypes.func.isRequired,
     userPropp: PropTypes.object.isRequired,
+    oldusernamePropp: PropTypes.object.isRequired,
     visiblePropp: PropTypes.bool.isRequired
 };
 

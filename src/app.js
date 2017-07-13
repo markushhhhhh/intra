@@ -16,6 +16,9 @@ import Main from './components/main.js';
 import FirstPageComponent from './components/pages/Firstpage.js';
 import AdminPageComponent from './components/pages/AdminPage.js'
 import EditUserPageComponent from './components/pages/EditUserPage.js'
+import AddUserPageComponent from './components/pages/AddUserPage.js'
+import EditNewsPageComponent from './components/pages/EditNewsPage.js'
+import AddNewsPageComponent from './components/pages/AddNewsPage.js'
 
 
 import constructedStore from './store/store.js';
@@ -45,7 +48,9 @@ const Routes = (
                 <Route path="/second" component={NotFound}/>
                 <Route path='/admin' component={AdminPageComponent}>
                     <IndexRoute component={EditUserPageComponent}/>
-                    <Route path="/editnews" component={EditNews}/>
+                    <Route path="/adduser" component={AddUserPageComponent}/>
+                    <Route path="/addnews" component={AddNewsPageComponent}/>
+                    <Route path="/editnews" component={EditNewsPageComponent}/>
                 </Route>
                 <Route path='*' component={NotFound}/>
             </Route>

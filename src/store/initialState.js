@@ -1,11 +1,11 @@
 //The initail state fro the whole app
 const initialState = {
-    user: {
+    activeuser: {
         username: '',
         password: '',
-        activesession: true,
-        admin: true,
-        newsadmin: true,
+        activesession: false,
+        admin: false,
+        newsadmin: false,
     },
     components: {
         admincomponents: {

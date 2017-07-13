@@ -4,10 +4,13 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 //Actions
 import {renderAddUserPage, renderAddUserForm, renderComponent, unrenderComponent} from './../../actions/componentsActions.js'
-import {addUserToDB, updateUserInDB, subscribeToUsers, unsubscribeToUsers, updateUserToConf, getUserToConf, resetUser, firebasePromise} from './../../actions/configureUserActions.js'
+import {addUserToDB, updateUserInDB, deleteUserFromDB, subscribeToUsers, unsubscribeToUsers, updateUserToConf, getUserToConf, resetUser, firebasePromise} from './../../actions/configureUserActions.js'
 
-import AdminPageButtons2 from './adminpageComp/AdminPageButtons2.js';
+import AdminPageButtons from './adminpageComp/AdminPageButtons.js';
+import NewsAdminPageButtons from './adminpageComp/NewsAdminPageButtons.js';
 
+
+const Router = require('react-router');
 
 
 class AdminPage extends React.Component {
@@ -25,45 +28,47 @@ class AdminPage extends React.Component {
         }
     }*/
 
+    componentDidMount(){
+        this.props.subscribeToUsers();
+        this.props.unrenderComponent('UNRENDER_USERLIST');
+        this.props.unrenderComponent('UNRENDER_INDIVIDUALUSER');
+    }
+
+    componentWillUnmount(){
+        this.props.unsubscribeToUsers();
+    }
+
+
     handleRendering = (whatToRender) => {
         if(whatToRender === 'RENDER_USERLIST') {
             this.props.resetUser();
             this.props.renderComponent('RENDER_USERLIST');
             this.props.unrenderComponent('UNRENDER_INDIVIDUALUSER');
-            this.props.unrenderComponent('UNRENDER_ADDUSERFORM');
 
         }
-        if(whatToRender === 'RENDER_ADDUSERFORM'){
-            this.props.resetUser();
-            this.props.renderComponent(whatToRender);
-            this.props.unrenderComponent('UNRENDER_INDIVIDUALUSER');
-            this.props.unrenderComponent('UNRENDER_USERLIST');
-        }
-    }
+    };
 
     render(){
         var childrenWithProps = React.cloneElement(this.props.children, {...this.props});
-
-        return (
+        if(this.props.activeuser.activesession === true && this.props.activeuser.admin === true && this.props.activeuser.newsadmin === true){
+            return (
             <div>
-                <h1>AdminPage!</h1>
-                <AdminPageButtons2
+                <h1>SuperAdminPage!</h1>
+                <AdminPageButtons
                     renderPropp={this.handleRendering}
                 />
                 {childrenWithProps}
-                {/*<AdminPageButtons*/}
-                    {/*renderAddUserPagePropp={this.props.renderAddUserPage}*/}
-                    {/*renderAddUserFormPropp={this.props.renderAddUserForm}*/}
-                    {/*renderComponentPropp={this.props.renderComponent}*/}
-                    {/*unrenderComponentPropp={this.props.unrenderComponent}*/}
-
-                {/*/>*/}
-
-
-
-
             </div>
-        )
+        )} if(this.props.activeuser.activesession === true && this.props.activeuser.admin !== true && this.props.activeuser.newsadmin === true) {
+            return(
+            <div>
+                <h1>NewsAdminPage!</h1>
+                <NewsAdminPageButtons
+                    renderPropp={this.handleRendering}
+                />
+                {childrenWithProps}
+            </div>
+            )}
     }
 }
 
@@ -72,6 +77,7 @@ class AdminPage extends React.Component {
 
 function mapStateToProps(state){
     return{
+        activeuser: state.activeuser,
         users: state.conf.users,
         user: state.conf.user,
         oldusername: state.conf.oldusername,
@@ -89,6 +95,7 @@ function mapDispatchToProps(dispatch) {
         unrenderComponent: unrenderComponent,
         addUserToDB: addUserToDB,               //configureUserActions
         updateUserInDB: updateUserInDB,         //configureUserActions
+        deleteUserFromDB: deleteUserFromDB,
         getUserToConf: getUserToConf,           //configureUserActions
         updateUserToConf: updateUserToConf,     //configureUserActions
         resetUser: resetUser,                   //configureUserActions

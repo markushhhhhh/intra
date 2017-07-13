@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import UserList from './edituserpageComp/UserList.js';
 import IndividualUser2 from './edituserpageComp/IndividualUser2.js';
-import AddUserForm2 from './edituserpageComp/AddUserForm2.js';
+import AddUserForm2 from './adduserpageComp/AddUserForm2.js';
 
 class EditUserPage extends React.Component {
 
@@ -14,20 +14,12 @@ class EditUserPage extends React.Component {
         //Set the initial component state
     }
 
-    componentDidMount(){
-        this.props.subscribeToUsers();
-    }
 
-    componentWillUnmount(){
-        this.props.unsubscribeToUsers();
-    }
 
     handleClickOnUser = (user) => {
         this.props.getUserToConf(user);
         this.props.renderComponent('RENDER_INDIVIDUALUSER');
         this.props.unrenderComponent('UNRENDER_USERLIST');
-        this.props.unrenderComponent('UNRENDER_ADDUSERFORM');
-
     };
 
     handleTextInput = (event) => {
@@ -62,11 +54,12 @@ class EditUserPage extends React.Component {
         event.preventDefault();
         //this.props.firebasePromise();
         console.log(event.target.name);
-        if(event.target.name === 'updateuser' && this.props.oldusername !== '') {
-            this.props.updateUserInDB(this.props.user, this.props.oldusername);
-        } else {
-            this.props.addUserToDB(this.props.user)
-        }
+        this.props.updateUserInDB(this.props.user, this.props.oldusername);
+
+    };
+
+    handleDelete = () => {
+        this.props.deleteUserFromDB(this.props.oldusername);
     };
 
 
@@ -82,16 +75,10 @@ class EditUserPage extends React.Component {
                     handleTextInputPropp={this.handleTextInput}
                     handleCheckboxInputPropp={this.handleCheckboxInput}
                     handleSelectInputPropp={this.handleSelectInput}
+                    handleDeletePropp={this.handleDelete}
                     userPropp={this.props.user}
+                    oldusernamePropp={this.props.oldusername}
                     visiblePropp={this.props.editindividualuserC}
-                />
-                <AddUserForm2
-                    onSubmitPropp={this.processForm}
-                    handleTextInputPropp={this.handleTextInput}
-                    handleCheckboxInputPropp={this.handleCheckboxInput}
-                    handleSelectInputPropp={this.handleSelectInput}
-                    userPropp={this.props.user}
-                    visiblePropp={this.props.adduserformC}
                 />
             </div>
         );

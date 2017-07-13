@@ -8,8 +8,16 @@ export function firebasePromise() {
 
 export function addUserToDB(user) {
     return function (dispatch) {
-        const usersRef = database.database().ref('usersDB/users/' + user.username);
-        usersRef.set(user);
+        const userRef = database.database().ref('usersDB/users/' + user.username);
+        userRef.set(user);
+        dispatch(resetUser());
+    }
+}
+
+export function deleteUserFromDB(oldUsername) {
+    return function (dispatch) {
+        const oldUsernameRef = database.database().ref('usersDB/users');
+        oldUsernameRef.child(oldUsername).remove();
         dispatch(resetUser());
     }
 }
