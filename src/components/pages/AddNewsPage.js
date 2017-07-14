@@ -32,6 +32,10 @@ componentDidMount(){
         this.props.addArticleToDB(article)
     };
 
+   onSubmitTest = (event) => {
+       console.log('ON SUBMIT TEST !!');
+   }
+
     render() {
         return (<div>
                 <AddNewsForm
@@ -39,6 +43,7 @@ componentDidMount(){
                     activeuserPropp={this.props.activeuser}
                     handleTextInputPropp={this.handleTextInput}
                     notpostedarticlePropp={this.props.notpostedarticle}
+                    onSubmitTestPropp={this.onSubmitTest}
                 />
             </div>
         );

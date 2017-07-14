@@ -11,6 +11,33 @@ export function addArticleToDB(article) {
     }
 }
 
+export function subscribeToNews() {
+    return function (dispatch) {
+        const allArticlesRef = database.database().ref('newsDB/articles');
+        allArticlesRef.on('value', (snapshot) => {
+            const allArticles = [];
+            snapshot.forEach((childVariable) => {
+                allArticles.push(childVariable.val())
+            });
+            dispatch(receiveAllNews(allArticles))
+        })
+    }
+}
+
+function receiveAllNews(allArticles) {
+    return{
+        type: 'RECEIVE_ALL_ARTICLES',
+        payload: allArticles
+    };
+}
+
+export function unsubscribeToNews() {
+    return function () {
+        const allNewsRef = database.database().ref('newsDB/articles');
+        allNewsRef.off('value');
+    }
+}
+
 
 export function updateNotPostedArticle(article) {
     return{

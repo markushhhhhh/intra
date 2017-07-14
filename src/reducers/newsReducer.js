@@ -7,6 +7,11 @@ export default function newsReducer(state = initState.news, action) {
                 notpostedarticle: {...state.notpostedarticle, ...action.payload}
             };
             break;
+        case 'RECEIVE_ALL_ARTICLES':
+            return{...state,
+                newsarticles: action.payload
+            };
+            break;
     }
     return state;
 }

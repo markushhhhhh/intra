@@ -8,9 +8,10 @@ const AddNewsForm = ({
                          onSubmitPropp,
                          activeuserPropp,
                          handleTextInputPropp,
-                        notpostedarticlePropp
+                        notpostedarticlePropp,
+                        onSubmitTestPropp
                      }) =>  (
-    <form onSubmit={onSubmitPropp} name="addnews">
+    <form>
         <Row>
             <Col md={4}>
                 <ControlLabel>Författare</ControlLabel>
@@ -67,7 +68,8 @@ AddNewsForm.propTypes = {
     onSubmitPropp: PropTypes.func,
     activeuserPropp: PropTypes.object,
     handleTextInputPropp: PropTypes.func,
-    notpostedarticlePropp: PropTypes.object
+    notpostedarticlePropp: PropTypes.object,
+    onSubmitTestPropp: PropTypes.func
 };
 
 export default AddNewsForm;
