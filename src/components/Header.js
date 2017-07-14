@@ -50,7 +50,7 @@ const Header = ({
                 </NavDropdown>
             </Nav>
             <Nav pullRight>
-                <NavItem eventKey={1} href="#" onClick={userLogoutPropp}>Logga Ut</NavItem>
+                <NavItem eventKey={1} href="/" onClick={userLogoutPropp}>Logga Ut</NavItem>
             </Nav>
         </Navbar.Collapse>
     </Navbar>

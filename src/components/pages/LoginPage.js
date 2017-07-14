@@ -14,11 +14,9 @@ class LoginPage extends React.Component {
     };
 
     processForm = (event) => {
-        // prevent default action. in this case, action is the form submission event
-         event.preventDefault();
-        // console.log(event.target.name);
-         this.props.userLoginPropp(this.props.activeuserPropp);
-        console.log('i processForm');
+        //prevent default action. in this case, action is the form submission event
+        event.preventDefault();
+        this.props.userLoginPropp(this.props.activeuserPropp);
     };
 
     render() {

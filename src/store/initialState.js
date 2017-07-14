@@ -2,10 +2,14 @@
 const initialState = {
     activeuser: {
         username: '',
-        password: '',
-        activesession: false,
+        firstname: '',
+        lastname: '',
+        title: '',
+        department: '',
+        email: '',
         admin: false,
         newsadmin: false,
+        activesession: false
     },
     components: {
         admincomponents: {
@@ -28,6 +32,14 @@ const initialState = {
             newsadmin: false
         },
         oldusername: ''
+    },
+    news: {
+        newsarticles: [],
+        notpostedarticle: {
+            headline: '',
+            text: '',
+            img: ''
+        }
     }
 };
 

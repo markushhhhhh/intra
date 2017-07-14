@@ -9,7 +9,7 @@ const LoginForm = ({
                       handleTextInputPropp,
                       activeuserPropp
                    }) => (
-    <div>
+    <form onSubmit={onSubmitPropp} name="'login">
         <Row>
             <Col sm={5} smOffset={5}>
 <img id='loginlogo' src="img/mandometer_logo2.png" />
@@ -54,14 +54,15 @@ const LoginForm = ({
             <Col smOffset={4} sm={10}>
                 <Button
                     className="btn btn-primary btn-large centerButton"
-                    onClick={onSubmitPropp}
+                    type="submit"
+
                 >
                     Logga In
                 </Button>
             </Col>
         </FormGroup>
     </Form>
-    </div>
+    </form>
 );
 
 LoginForm.propTypes = {

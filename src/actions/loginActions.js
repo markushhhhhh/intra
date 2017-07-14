@@ -9,7 +9,15 @@ return function (dispatch) {
             console.log(childVariable.key, ' username');
             console.log(childVariable.val().password, ' password');
             if(activeUser.username === childVariable.key && activeUser.password === childVariable.val().password){
-                dispatch(userLoginSuccess({admin: childVariable.val().admin, newsadmin: childVariable.val().newsadmin}));
+                dispatch(userLoginSuccess({
+                    username: childVariable.val().username,
+                    firstname: childVariable.val().firstname,
+                    lastname: childVariable.val().lastname,
+                    title: childVariable.val().title,
+                    department: childVariable.val().department,
+                    email: childVariable.val().email,
+                    admin: childVariable.val().admin,
+                    newsadmin: childVariable.val().newsadmin}));
                 console.log('Login Success!');
                 return true;
             }
