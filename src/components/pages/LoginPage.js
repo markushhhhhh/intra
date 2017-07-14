@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 import LoginForm from './loginpageComp/LoginForm.js'
 
@@ -34,9 +35,9 @@ class LoginPage extends React.Component {
 }
 
 LoginPage.propTypes = {
-    updateActiveUserPropp: PropTypes.func.isRequired,
-    activeuserPropp: PropTypes.object.isRequired,
-    userLoginPropp: PropTypes.func.isRequired
+    updateActiveUserPropp: PropTypes.func,
+    activeuserPropp: PropTypes.object,
+    userLoginPropp: PropTypes.func
 };
 
 

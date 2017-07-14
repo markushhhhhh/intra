@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 import {Form, Row, Col, FormGroup, ControlLabel, FormControl, Button, Checkbox} from 'react-bootstrap';
 
@@ -9,13 +10,13 @@ const LoginForm = ({
                       handleTextInputPropp,
                       activeuserPropp
                    }) => (
-    <form onSubmit={onSubmitPropp} name="'login">
+    <div>
         <Row>
             <Col sm={5} smOffset={5}>
 <img id='loginlogo' src="img/mandometer_logo2.png" />
             </Col>
         </Row>
-    <Form horizontal>
+    <Form horizontal onSubmit={onSubmitPropp} name="'login">
         <FormGroup controlId="formHorizontalEmail">
             <Col componentClass={ControlLabel} sm={4}>
                 Användarnamn
@@ -62,13 +63,14 @@ const LoginForm = ({
             </Col>
         </FormGroup>
     </Form>
-    </form>
+    </div>
+
 );
 
 LoginForm.propTypes = {
-    onSubmitPropp: PropTypes.func.isRequired,
-    handleTextInputPropp: PropTypes.func.isRequired,
-    activeuserPropp: PropTypes.object.isRequired
+    onSubmitPropp: PropTypes.func,
+    handleTextInputPropp: PropTypes.func,
+    activeuserPropp: PropTypes.object
 };
 
 export default LoginForm;

@@ -1,10 +1,6 @@
-import React, {PropTypes} from 'react';
-import  { Link } from 'react-router';
-import { Card, CardText } from 'material-ui/Card';
-import RaisedButton from 'material-ui/RaisedButton';
-import TextField from 'material-ui/TextField';
-import SelectField from 'material-ui/SelectField';
-import MenuItem from 'material-ui/MenuItem';
+import React from 'react';
+import PropTypes from 'prop-types';
+
 
 import {FormGroup, ControlLabel, FormControl, HelpBlock, Button, Checkbox} from 'react-bootstrap';
 
@@ -129,14 +125,14 @@ const IndividualUser = ({
 </form>) : null;
 
 IndividualUser.propTypes = {
-    onSubmitPropp: PropTypes.func.isRequired,
-    handleTextInputPropp: PropTypes.func.isRequired,
-    handleCheckboxInputPropp: PropTypes.func.isRequired,
-    handleSelectInputPropp: PropTypes.func.isRequired,
-    handleDeletePropp: PropTypes.func.isRequired,
-    userPropp: PropTypes.object.isRequired,
-    oldusernamePropp: PropTypes.object.isRequired,
-    visiblePropp: PropTypes.bool.isRequired
+    onSubmitPropp: PropTypes.func,
+    handleTextInputPropp: PropTypes.func,
+    handleCheckboxInputPropp: PropTypes.func,
+    handleSelectInputPropp: PropTypes.func,
+    handleDeletePropp: PropTypes.func,
+    userPropp: PropTypes.object,
+    oldusernamePropp: PropTypes.string,
+    visiblePropp: PropTypes.bool
 };
 
 export default IndividualUser;

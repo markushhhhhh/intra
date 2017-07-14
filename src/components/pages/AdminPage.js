@@ -1,10 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 //Actions
 import {renderAddUserPage, renderAddUserForm, renderComponent, unrenderComponent} from './../../actions/componentsActions.js'
 import {addUserToDB, updateUserInDB, deleteUserFromDB, subscribeToUsers, unsubscribeToUsers, updateUserToConf, getUserToConf, resetUser, firebasePromise} from './../../actions/configureUserActions.js'
+import {updateNotPostedArticle, addArticleToDB} from './../../actions/newsActions.js'
 
 import AdminPageButtons from './adminpageComp/AdminPageButtons.js';
 import NewsAdminPageButtons from './adminpageComp/NewsAdminPageButtons.js';
@@ -84,6 +86,7 @@ function mapStateToProps(state){
         adduserformC: state.components.admincomponents.adduserformC,
         userlistC: state.components.admincomponents.userlistC,
         editindividualuserC: state.components.admincomponents.editindividualuserC,
+        notpostedarticle: state.news.notpostedarticle
     }
 }
 
@@ -101,6 +104,8 @@ function mapDispatchToProps(dispatch) {
         resetUser: resetUser,                   //configureUserActions
         subscribeToUsers: subscribeToUsers,     //configureUserActions
         unsubscribeToUsers: unsubscribeToUsers, //configureUserActions
+        updateNotPostedArticle: updateNotPostedArticle,
+        addArticleToDB: addArticleToDB,
         firebasePromise: firebasePromise
     }, dispatch)
 }

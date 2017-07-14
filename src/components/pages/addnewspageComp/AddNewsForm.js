@@ -1,12 +1,16 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 import {FormGroup, FormControl, ControlLabel, Col, Row, HelpBlock, Button} from 'react-bootstrap';
 
 
 const AddNewsForm = ({
-                        activeuserPropp
+                         onSubmitPropp,
+                         activeuserPropp,
+                         handleTextInputPropp,
+                        notpostedarticlePropp
                      }) =>  (
-    <form onSubmit={null} name="addnews">
+    <form onSubmit={onSubmitPropp} name="addnews">
         <Row>
             <Col md={4}>
                 <ControlLabel>Författare</ControlLabel>
@@ -29,7 +33,13 @@ const AddNewsForm = ({
         </Row>
         <ControlLabel>Rubriktitel</ControlLabel>
         <FormGroup bsSize="large">
-            <FormControl type="text" placeholder="Titel..." />
+            <FormControl
+                type="text"
+                placeholder="Titel..."
+                name="headline"
+                value={notpostedarticlePropp.headline}
+                onChange={handleTextInputPropp}
+            />
         </FormGroup>
 
         <FormGroup controlId="formControlsTextarea">
@@ -38,6 +48,9 @@ const AddNewsForm = ({
                 componentClass="textarea"
                 placeholder="Skriv här..."
                 style={{height: '50%'}}
+                name="text"
+                value={notpostedarticlePropp.text}
+                onChange={handleTextInputPropp}
             />
         </FormGroup>
         <FormGroup controlId='formControlsFile'>
@@ -51,7 +64,10 @@ const AddNewsForm = ({
     </form> );
 
 AddNewsForm.propTypes = {
-    activeuserPropp: PropTypes.object.isRequired
+    onSubmitPropp: PropTypes.func,
+    activeuserPropp: PropTypes.object,
+    handleTextInputPropp: PropTypes.func,
+    notpostedarticlePropp: PropTypes.object
 };
 
 export default AddNewsForm;

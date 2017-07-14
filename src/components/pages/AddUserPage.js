@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import AddUserForm2 from './adduserpageComp/AddUserForm2.js';
 
 class AddUserPage extends React.Component {

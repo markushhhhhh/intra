@@ -2,286 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0711aa24-4ef0-4a15-a46e-21b794e5eb04" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/bin/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/bin/acorn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/expression.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/identifier.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/location.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/locutil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/loose/expression.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/loose/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/loose/parseutil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/loose/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/loose/statement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/loose/tokenize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/lval.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/parseutil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/scope.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/statement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/tokencontext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/tokenize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/tokentype.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/walk/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/acorn/src/whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getNextDebugID.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactClass.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPureComponent.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/.npmignore" afterPath="$PROJECT_DIR$/node_modules/acorn/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/AUTHORS" afterPath="$PROJECT_DIR$/node_modules/acorn/AUTHORS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/acorn/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/LICENSE" afterPath="$PROJECT_DIR$/node_modules/acorn/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/README.md" afterPath="$PROJECT_DIR$/node_modules/acorn/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/bin/acorn" afterPath="$PROJECT_DIR$/node_modules/acorn/bin/acorn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/dist/acorn.es.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/acorn.es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/dist/acorn.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/acorn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/dist/acorn_loose.es.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/acorn_loose.es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/dist/acorn_loose.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/acorn_loose.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/dist/walk.es.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/walk.es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/dist/walk.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/walk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/package.json" afterPath="$PROJECT_DIR$/node_modules/acorn/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cipher-base/index.js" afterPath="$PROJECT_DIR$/node_modules/cipher-base/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cipher-base/package.json" afterPath="$PROJECT_DIR$/node_modules/cipher-base/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cipher-base/test.js" afterPath="$PROJECT_DIR$/node_modules/cipher-base/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/crypto-browserify/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/crypto-browserify/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/crypto-browserify/README.md" afterPath="$PROJECT_DIR$/node_modules/crypto-browserify/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/crypto-browserify/index.js" afterPath="$PROJECT_DIR$/node_modules/crypto-browserify/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/crypto-browserify/package.json" afterPath="$PROJECT_DIR$/node_modules/crypto-browserify/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/README.md" afterPath="$PROJECT_DIR$/node_modules/enhanced-resolve/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/Resolver.js" afterPath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/Resolver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ResolverFactory.js" afterPath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ResolverFactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/UnsafeCachePlugin.js" afterPath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/UnsafeCachePlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/package.json" afterPath="$PROJECT_DIR$/node_modules/enhanced-resolve/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hash.js/.eslintrc.js" afterPath="$PROJECT_DIR$/node_modules/hash.js/.eslintrc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hash.js/package.json" afterPath="$PROJECT_DIR$/node_modules/hash.js/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/README.md" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/dist/react-bootstrap.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/dist/react-bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/dist/react-bootstrap.min.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/dist/react-bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/dist/react-bootstrap.min.js.map" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/dist/react-bootstrap.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Button.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ButtonGroup.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ButtonGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Carousel.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/CarouselCaption.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/CarouselCaption.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Checkbox.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Checkbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Clearfix.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Clearfix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/CloseButton.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/CloseButton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Col.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Col.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Dropdown.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Form.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/FormControl.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/FormControl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/FormControlStatic.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/FormControlStatic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Grid.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Grid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Jumbotron.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Jumbotron.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ListGroup.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ListGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Media.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Media.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/MediaBody.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/MediaBody.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/MediaHeading.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/MediaHeading.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/MenuItem.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/MenuItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Modal.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ModalBody.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ModalBody.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ModalFooter.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ModalFooter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ModalTitle.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ModalTitle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Nav.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Nav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Navbar.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Navbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Overlay.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Overlay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Pagination.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Pagination.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/PaginationButton.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/PaginationButton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Popover.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Radio.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Radio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Row.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Row.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/SafeAnchor.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/SafeAnchor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/TabContent.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/TabContent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/TabPane.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/TabPane.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Tabs.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Tabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Thumbnail.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Thumbnail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Tooltip.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/index.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/utils/PropTypes.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/utils/PropTypes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Button.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ButtonGroup.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ButtonGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Carousel.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/CarouselCaption.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/CarouselCaption.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Checkbox.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Checkbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Clearfix.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Clearfix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/CloseButton.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/CloseButton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Col.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Col.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Dropdown.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Form.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/FormControl.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/FormControl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/FormControlStatic.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/FormControlStatic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Grid.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Grid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Jumbotron.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Jumbotron.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ListGroup.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ListGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Media.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Media.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/MediaBody.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/MediaBody.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/MediaHeading.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/MediaHeading.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/MenuItem.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/MenuItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Modal.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ModalBody.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ModalBody.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ModalFooter.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ModalFooter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ModalTitle.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ModalTitle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Nav.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Nav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Navbar.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Navbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Overlay.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Overlay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Pagination.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Pagination.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/PaginationButton.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/PaginationButton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Popover.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Radio.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Radio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Row.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Row.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/SafeAnchor.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/SafeAnchor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/TabContent.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/TabContent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/TabPane.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/TabPane.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Tabs.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Tabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Thumbnail.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Thumbnail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Tooltip.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/utils/PropTypes.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/utils/PropTypes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/package.json" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom-server.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom-server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom-server.min.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom-server.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom.min.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/BeforeInputEventPlugin.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/BeforeInputEventPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/CSSProperty.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/CSSProperty.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/CSSPropertyOperations.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/CSSPropertyOperations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ChangeEventPlugin.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ChangeEventPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMChildrenOperations.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMChildrenOperations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMProperty.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMProperty.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMPropertyOperations.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/DOMPropertyOperations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/Danger.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/Danger.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/EnterLeaveEventPlugin.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/EnterLeaveEventPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPluginHub.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPluginHub.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPluginRegistry.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/EventPluginRegistry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/HTMLDOMPropertyConfig.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/HTMLDOMPropertyConfig.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/LinkedValueUtils.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/LinkedValueUtils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/PooledClass.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/PooledClass.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactBrowserEventEmitter.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactBrowserEventEmitter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactChildFiber.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactChildFiber.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactChildReconciler.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactChildReconciler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactComponentBrowserEnvironment.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactComponentBrowserEnvironment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactComponentEnvironment.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactComponentEnvironment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactCompositeComponent.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactCompositeComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOM.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOM.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMComponent.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMComponentTree.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMComponentTree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMFiber.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMFiber.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMIDOperations.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMIDOperations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMInput.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMInput.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMOption.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMOption.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMTextComponent.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMTextComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMTextarea.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMTextarea.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMUMDEntry.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDOMUMDEntry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDebugTool.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactDebugTool.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactErrorUtils.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactErrorUtils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactEventEmitterMixin.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactEventEmitterMixin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiber.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiber.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberBeginWork.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberBeginWork.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberCommitWork.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberCommitWork.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberCompleteWork.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactFiberCompleteWork.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactHostComponent.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactHostComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInputSelection.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInputSelection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInstanceMap.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactInstanceMap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMount.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMount.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMultiChild.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactMultiChild.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactOwner.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactOwner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPerf.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPerf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPriorityLevel.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactPriorityLevel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactReconciler.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactReconciler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactShallowRenderer.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactShallowRenderer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactSimpleEmptyComponent.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactSimpleEmptyComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactTestUtils.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactTestUtils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactUpdateQueue.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactUpdateQueue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactVersion.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ReactVersion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ResponderEventPlugin.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ResponderEventPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SelectEventPlugin.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SelectEventPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SimpleEventPlugin.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SimpleEventPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticEvent.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticEvent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticWheelEvent.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/SyntheticWheelEvent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/TapEventPlugin.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/TapEventPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/Transaction.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/Transaction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/ViewportMetrics.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/ViewportMetrics.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/dangerousStyleValue.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/dangerousStyleValue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/deprecated.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/deprecated.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/escapeTextContentForBrowser.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/escapeTextContentForBrowser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventKey.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventKey.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventModifierState.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/getEventModifierState.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/instantiateReactComponent.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/instantiateReactComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/isTextInputElement.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/isTextInputElement.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/setInnerHTML.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/setInnerHTML.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/traverseAllChildren.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/traverseAllChildren.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/lib/validateDOMNesting.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/lib/validateDOMNesting.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/package.json" afterPath="$PROJECT_DIR$/node_modules/react-dom/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/README.md" afterPath="$PROJECT_DIR$/node_modules/react/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.js" afterPath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.min.js" afterPath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/dist/react.js" afterPath="$PROJECT_DIR$/node_modules/react/dist/react.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/dist/react.min.js" afterPath="$PROJECT_DIR$/node_modules/react/dist/react.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/PooledClass.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/PooledClass.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/React.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/React.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactAddonsDOMDependencies.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactAddonsDOMDependencies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactAddonsDOMDependenciesUMDShim.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactAddonsDOMDependenciesUMDShim.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroup.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroupChild.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroupChild.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeHook.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeHook.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCurrentOwner.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactCurrentOwner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactDOMFactories.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactDOMFactories.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElementValidator.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactElementValidator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactLink.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactLink.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactNoopUpdateQueue.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactNoopUpdateQueue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypes.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionGroup.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactUMDEntry.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactUMDEntry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactVersion.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactVersion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactWithAddonsUMDEntry.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactWithAddonsUMDEntry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/deprecated.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/deprecated.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/traverseAllChildren.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/traverseAllChildren.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/package.json" afterPath="$PROJECT_DIR$/node_modules/react/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/redux/README.md" afterPath="$PROJECT_DIR$/node_modules/redux/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/redux/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/redux/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/redux/package.json" afterPath="$PROJECT_DIR$/node_modules/redux/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/README.md" afterPath="$PROJECT_DIR$/node_modules/webpack/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/bin/convert-argv.js" afterPath="$PROJECT_DIR$/node_modules/webpack/bin/convert-argv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/AmdMainTemplatePlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/AmdMainTemplatePlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/BasicEvaluatedExpression.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/BasicEvaluatedExpression.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Chunk.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Chunk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Compilation.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Compilation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Compiler.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Compiler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ContextModuleFactory.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ContextModuleFactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/HotModuleReplacementPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/HotModuleReplacementPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Module.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Parser.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/RequestShortener.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/RequestShortener.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/RequireJsStuffPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/RequireJsStuffPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/SourceMapDevToolPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/SourceMapDevToolPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/UmdMainTemplatePlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/UmdMainTemplatePlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/WebpackOptionsApply.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/WebpackOptionsApply.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/WebpackOptionsDefaulter.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/WebpackOptionsDefaulter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/CommonJsPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/CommonJsPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/DepBlockHelpers.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/DepBlockHelpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyImportDependencyParserPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyImportDependencyParserPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyModulesHelpers.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyModulesHelpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/node/NodeMainTemplatePlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/node/NodeMainTemplatePlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/ConcatenatedModule.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/ConcatenatedModule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/webworker/WebWorkerChunkTemplatePlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/webworker/WebWorkerChunkTemplatePlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/webworker/WebWorkerMainTemplatePlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/webworker/WebWorkerMainTemplatePlugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/prop-types/package.json" afterPath="$PROJECT_DIR$/node_modules/prop-types/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/package.json" afterPath="$PROJECT_DIR$/node_modules/webpack/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/schemas/webpackOptionsSchema.json" afterPath="$PROJECT_DIR$/node_modules/webpack/schemas/webpackOptionsSchema.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bundle.js" afterPath="$PROJECT_DIR$/public/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/loginActions.js" afterPath="$PROJECT_DIR$/src/actions/loginActions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.js" afterPath="$PROJECT_DIR$/src/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header.js" afterPath="$PROJECT_DIR$/src/components/Header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HeaderAdmin.js" afterPath="$PROJECT_DIR$/src/components/HeaderAdmin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/main.js" afterPath="$PROJECT_DIR$/src/components/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/AddNewsPage.js" afterPath="$PROJECT_DIR$/src/components/pages/AddNewsPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/AddUserPage.js" afterPath="$PROJECT_DIR$/src/components/pages/AddUserPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/AdminPage.js" afterPath="$PROJECT_DIR$/src/components/pages/AdminPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/EditNewsPage.js" afterPath="$PROJECT_DIR$/src/components/pages/EditNewsPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/EditUserPage.js" afterPath="$PROJECT_DIR$/src/components/pages/EditUserPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/Firstpage.js" afterPath="$PROJECT_DIR$/src/components/pages/Firstpage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/LoginPage.js" afterPath="$PROJECT_DIR$/src/components/pages/LoginPage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/addnewspageComp/AddNewsForm.js" afterPath="$PROJECT_DIR$/src/components/pages/addnewspageComp/AddNewsForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/adduserpageComp/AddUserForm2.js" afterPath="$PROJECT_DIR$/src/components/pages/adduserpageComp/AddUserForm2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons.js" afterPath="$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/adminpageComp/NewsAdminPageButtons.js" afterPath="$PROJECT_DIR$/src/components/pages/adminpageComp/NewsAdminPageButtons.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/edituserpageComp/IndividualUser2.js" afterPath="$PROJECT_DIR$/src/components/pages/edituserpageComp/IndividualUser2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/edituserpageComp/UserList.js" afterPath="$PROJECT_DIR$/src/components/pages/edituserpageComp/UserList.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/loginpageComp/LoginForm.js" afterPath="$PROJECT_DIR$/src/components/pages/loginpageComp/LoginForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/index.js" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/initialState.js" afterPath="$PROJECT_DIR$/src/store/initialState.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -299,39 +43,106 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="AdminPage.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/pages/AdminPage.js">
+          <file leaf-file-name="newsActions.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/actions/newsActions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="409">
-                  <caret line="85" column="82" lean-forward="false" selection-start-line="85" selection-start-column="82" selection-end-line="85" selection-end-column="82" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Firstpage.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/pages/Firstpage.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="80" />
+                  <folding>
+                    <element signature="e#15#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NewsPage.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/pages/NewsPage.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="390">
+                  <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+                  <folding>
+                    <element signature="e#14#40#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NewsList.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/pages/newspageComp/NewsList.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
-                    <element signature="e#121#246#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AddNewsPage.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/pages/AddNewsPage.js">
+          <file leaf-file-name="UserList.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/pages/edituserpageComp/UserList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
                   <folding>
-                    <marker date="1500016076000" expanded="true" signature="146:414" ph="{...}" />
+                    <element signature="e#0#26#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AddNewsForm.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/pages/addnewspageComp/AddNewsForm.js">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="477">
-                  <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+                <state relative-caret-position="-98">
+                  <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
                   <folding>
-                    <element signature="e#0#41#0" expanded="true" />
+                    <element signature="e#217#257#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="230">
+                  <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+                  <folding>
+                    <element signature="e#15#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HeaderAdmin.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/HeaderAdmin.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+                  <folding>
+                    <element signature="e#15#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="35">
+                  <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -340,31 +151,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="AdminPageButtons.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons.js">
+          <file leaf-file-name="AddUserPage.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/pages/AddUserPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="userReducer.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/reducers/userReducer.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="initialState.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/store/initialState.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+                <state relative-caret-position="-214">
+                  <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
@@ -373,11 +164,29 @@
           <file leaf-file-name="AddUserForm2.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/pages/adduserpageComp/AddUserForm2.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="233">
-                  <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="-821">
+                  <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="configureUserActions.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/actions/configureUserActions.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="initialState.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/store/initialState.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="600">
+                  <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -395,16 +204,33 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Pro</find>
+      <find>{Prop</find>
+      <find>{Pro</find>
+      <find>{Pr</find>
+      <find>{P</find>
+      <find>{</find>
+      <find>P</find>
+      <find>Pr</find>
+      <find>Prop</find>
+      <find>PropT</find>
+      <find>PropTy</find>
+      <find>PropTyp</find>
+      <find>PropType</find>
+      <find>PropTypes</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/pages/SecondComponent.js" />
-        <option value="$PROJECT_DIR$/src/actions/testAction.js" />
-        <option value="$PROJECT_DIR$/src/components/headerComponents/NavBarComponent.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/css/navbar.css" />
         <option value="$PROJECT_DIR$/public/css/content.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
@@ -422,36 +248,40 @@
         <option value="$PROJECT_DIR$/src/components/pages/EditUserPage2.js" />
         <option value="$PROJECT_DIR$/src/actions/confuserActions.js" />
         <option value="$PROJECT_DIR$/src/reducers/confuserReducer.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/Firstpage.js" />
         <option value="$PROJECT_DIR$/src/components/pages/edituserpageComp/IndividualUser.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/components/pages/edituserpageComp/UserList.js" />
         <option value="$PROJECT_DIR$/src/components/pages/adduserpageComp/AddUserForm.js" />
         <option value="$PROJECT_DIR$/src/reducers/confReducer.js" />
         <option value="$PROJECT_DIR$/src/reducers/componentsReducer.js" />
         <option value="$PROJECT_DIR$/src/components/pages/edituserpageComp/AddUserForm2.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/AddUserPage.js" />
-        <option value="$PROJECT_DIR$/src/app.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/EditNewsPage.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/adduserpageComp/AddUserForm2.js" />
-        <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons2.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/adminpageComp/NewsAdminPageButtons.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/AdminPage.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/edituserpageComp/IndividualUser2.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/EditUserPage.js" />
         <option value="$PROJECT_DIR$/src/actions/configureUserActions.js" />
-        <option value="$PROJECT_DIR$/src/components/main.js" />
         <option value="$PROJECT_DIR$/src/reducers/userReducer.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons.js" />
-        <option value="$PROJECT_DIR$/src/components/Header.js" />
-        <option value="$PROJECT_DIR$/src/components/HeaderAdmin.js" />
         <option value="$PROJECT_DIR$/src/actions/loginActions.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/AddNewsPage.js" />
+        <option value="$PROJECT_DIR$/src/store/initialState.js" />
+        <option value="$PROJECT_DIR$/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/reducers/newsReducer.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/EditNewsPage.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/EditUserPage.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/Firstpage.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/adminpageComp/NewsAdminPageButtons.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/edituserpageComp/UserList.js" />
+        <option value="$PROJECT_DIR$/src/components/main.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/AddUserPage.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/adduserpageComp/AddUserForm2.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/edituserpageComp/IndividualUser2.js" />
         <option value="$PROJECT_DIR$/src/components/pages/loginpageComp/LoginForm.js" />
         <option value="$PROJECT_DIR$/src/components/pages/LoginPage.js" />
-        <option value="$PROJECT_DIR$/src/store/initialState.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/AdminPage.js" />
         <option value="$PROJECT_DIR$/src/components/pages/addnewspageComp/AddNewsForm.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/AddNewsPage.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/src/components/HeaderAdmin.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/newspageComp/NewsList.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/NewsPage.js" />
+        <option value="$PROJECT_DIR$/src/actions/newsActions.js" />
       </list>
     </option>
   </component>
@@ -609,7 +439,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="adduserpageComp" />
+              <option name="myItemId" value="newspageComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edituserpageComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="headerComponents" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -793,7 +671,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205665000" />
+    <option name="totallyTimeSpent" value="214601000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -848,42 +726,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/content.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/data2Reducer.js" />
     <entry file="file://$PROJECT_DIR$/src/database.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -907,13 +749,6 @@
     <entry file="file://$PROJECT_DIR$/src/actions/testAction.js" />
     <entry file="file://$PROJECT_DIR$/src/actions/confuserActions.js" />
     <entry file="file://$PROJECT_DIR$/src/components/pages/SecondComponent.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/pages/Firstpage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -950,9 +785,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="68" lean-forward="true" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="116" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -980,14 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/edituserpageComp/UserList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/componentsReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -996,30 +821,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/headerComponents/NavBarComponent.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="50" column="77" lean-forward="true" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="77" />
-          <folding>
-            <element signature="e#14#40#0" expanded="false" />
-            <element signature="e#318#357#0" expanded="false" />
-            <element signature="e#456#496#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/EditNewsPage.js">
+    <entry file="file://$PROJECT_DIR$/src/actions/componentsActions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="28" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/loginActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -1032,161 +861,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/adminpageComp/NewsAdminPageButtons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/edituserpageComp/IndividualUser2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/componentsActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/EditUserPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="61" column="58" lean-forward="false" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/configureUserActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="15">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HeaderAdmin.js">
+    <entry file="file://$PROJECT_DIR$/src/components/pages/adminpageComp/NewsAdminPageButtons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        <state relative-caret-position="15">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/headerComponents/NavBarComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/EditNewsPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
           <folding>
-            <element signature="e#15#54#0" expanded="false" />
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/edituserpageComp/IndividualUser2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="127" column="33" lean-forward="false" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/AddUserPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="51" selection-end-column="6" />
+        <state relative-caret-position="-214">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/loginActions.js">
+    <entry file="file://$PROJECT_DIR$/src/components/pages/AdminPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        <state relative-caret-position="120">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/LoginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/loginpageComp/LoginForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/adduserpageComp/AddUserForm2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-821">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/addnewspageComp/AddNewsForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/userReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/newsReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="80" lean-forward="false" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/AddNewsPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="465">
+          <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding>
-            <marker date="1500016076000" expanded="true" signature="146:414" ph="{...}" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons.js">
+    <entry file="file://$PROJECT_DIR$/src/components/pages/Firstpage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/loginpageComp/LoginForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="80" />
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-739">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="35">
+          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#217#257#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="230">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/LoginPage.js">
+    <entry file="file://$PROJECT_DIR$/src/components/HeaderAdmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/edituserpageComp/UserList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/AdminPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="85" column="82" lean-forward="false" selection-start-line="85" selection-start-column="82" selection-end-line="85" selection-end-column="82" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#121#246#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/adduserpageComp/AddUserForm2.js">
+    <entry file="file://$PROJECT_DIR$/src/components/pages/newspageComp/NewsList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="90">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1199,12 +1077,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/addnewspageComp/AddNewsForm.js">
+    <entry file="file://$PROJECT_DIR$/src/actions/configureUserActions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        <state relative-caret-position="240">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/newsActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/NewsPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#14#40#0" expanded="true" />
           </folding>
         </state>
       </provider>

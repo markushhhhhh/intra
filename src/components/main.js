@@ -1,6 +1,7 @@
 'use strict';
 
 import React from 'react';
+import PropTypes from 'prop-types';
 import {Jumbotron, Grid, Button} from 'react-bootstrap';
 
 import HeaderAdmin from './HeaderAdmin.js'

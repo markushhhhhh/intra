@@ -38,7 +38,7 @@ const initialState = {
         notpostedarticle: {
             headline: '',
             text: '',
-            img: ''
+            imgURL: ''
         }
     }
 };

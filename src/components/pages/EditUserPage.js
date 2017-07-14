@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import UserList from './edituserpageComp/UserList.js';
 import IndividualUser2 from './edituserpageComp/IndividualUser2.js';
 import AddUserForm2 from './adduserpageComp/AddUserForm2.js';

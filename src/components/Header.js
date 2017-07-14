@@ -1,6 +1,7 @@
 'use strict';
 
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import {Navbar, NavItem, MenuItem, Nav, NavDropdown, Item} from 'react-bootstrap';
 import { Link } from 'react-router';
 //import {NavBar} from './headerComponents/NavBarComponent.js'
@@ -24,7 +25,7 @@ const Header = ({
         </Navbar.Header>
         <Navbar.Collapse>
             <Nav>
-                <LinkContainer to="/first">
+                <LinkContainer to="/">
                     <NavItem eventKey={1}>Nyheter</NavItem>
                 </LinkContainer>
                 <LinkContainer to="/second">
