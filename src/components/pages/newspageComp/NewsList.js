@@ -4,19 +4,22 @@ import PropTypes from 'prop-types';
 import {Media} from 'react-bootstrap';
 
 
+
+
 const NewsList = ({
                       newsarticlesPropp,
                       visiblePropp
                   }) => (visiblePropp === true) ? (
 
     <div>
-        {newsarticlesPropp.map((article, i) =>
+        {newsarticlesPropp.reverse().map((article, i) =>
             <Media
             key={i}
             >
             <Media.Body>
+                {console.log(article.text)}
                 <Media.Heading>{article.headline}</Media.Heading>
-                <p>{article.text}</p>
+                <div className="newstext">{article.text}</div>
             </Media.Body>
         </Media>)}
 

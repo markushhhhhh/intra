@@ -2,13 +2,269 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0711aa24-4ef0-4a15-a46e-21b794e5eb04" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/database-node.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/database.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-externs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-browser.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-database.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-messaging.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-node.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-react-native.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-storage.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/controller-interface.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/controller-interface.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/sw-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/sw-controller.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/window-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/window-controller.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/helpers/array-buffer-to-base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/helpers/array-buffer-to-base64.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/db-interface.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/db-interface.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/default-sw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/default-sw.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/errors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/errors.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/fcm-details.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/fcm-details.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/notification-permission.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/notification-permission.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/token-details-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/token-details-model.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/token-manager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/token-manager.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/vapid-details-model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/vapid-details-model.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/worker-page-message.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/worker-page-message.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/.gitignore_20170513142606" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/.gitignore_20170513144908" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/.gitignore_20170513144915" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/.travis_20170513142530.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/CHANGELOG_20170424191735.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/CHANGELOG_20170517113221.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/CHANGELOG_20170517113321.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/README_20170513163312.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/index.d_20170513010248.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/index.d_20170513010322.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/lib/timespan_20170513162630.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/lib/timespan_20170513162744.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/package_20170513122214.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/package_20170513122244.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/package_20170513142409.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/package_20170513142453.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/package_20170513142659.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/package_20170513144757.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513143941.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513145829.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513154325.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513155354.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513155439.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513155454.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513160038.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513160219.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513160322.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513160425.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513163356.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513163601.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513163715.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513163904.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513164126.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513164226.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513164631.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513164846.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513165123.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513165254.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513165528.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513165610.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513165649.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513165838.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513165848.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513165930.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513170022.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513170217.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513170326.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513170345.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513170401.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513170437.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513170504.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513170522.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513170741.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513170816.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513171243.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513171418.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513171450.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513171456.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513171617.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513171931.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513172028.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513172038.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513172123.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513172506.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513172519.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170513172637.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170516110727.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170516110926.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170516111003.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170516111045.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170516111149.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170516111224.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170516111501.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170516111544.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170516111615.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/test/verify.tests_20170516111736.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170513141638.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170513141721.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170513141900.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170513160544.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170513161150.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170513161232.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170513161617.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170513162315.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170513162823.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170513162938.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170513163049.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170513163058.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170513164052.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170513172602.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170513172907.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170516110653.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170516110827.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170516111751.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/.history/verify_20170516111805.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/args.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/args.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/array.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/async.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/authwrapper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/authwrapper.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/backoff.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/backoff.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/blob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/blob.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/constants.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/error.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/failrequest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/failrequest.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/fs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/fs.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/json.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/location.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/metadata.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/object.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/observer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/observer.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/path.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/promise_external.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/promise_external.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/request.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/request.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestinfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestinfo.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestmaker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestmaker.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestmap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requests.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/string.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/taskenums.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/taskenums.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/type.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/url.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/url.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhrio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhrio.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhrio_network.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhrio_network.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhriopool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhriopool.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/metadata.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/reference.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/reference.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/service.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/task.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/task.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/tasksnapshot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/tasksnapshot.js.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/README.md" afterPath="$PROJECT_DIR$/node_modules/firebase/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app.d.ts" afterPath="$PROJECT_DIR$/node_modules/firebase/app.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app.js" afterPath="$PROJECT_DIR$/node_modules/firebase/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/app.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/deep_copy.js" afterPath="$PROJECT_DIR$/node_modules/firebase/app/deep_copy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/deep_copy.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/app/deep_copy.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/errors.js" afterPath="$PROJECT_DIR$/node_modules/firebase/app/errors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/errors.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/app/errors.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/firebase_app.js" afterPath="$PROJECT_DIR$/node_modules/firebase/app/firebase_app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/firebase_app.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/app/firebase_app.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/shared_promise.js" afterPath="$PROJECT_DIR$/node_modules/firebase/app/shared_promise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/shared_promise.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/app/shared_promise.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/subscribe.js" afterPath="$PROJECT_DIR$/node_modules/firebase/app/subscribe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/subscribe.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/app/subscribe.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/auth.js" afterPath="$PROJECT_DIR$/node_modules/firebase/auth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/database-node.js" afterPath="$PROJECT_DIR$/node_modules/firebase/database-node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/database.js" afterPath="$PROJECT_DIR$/node_modules/firebase/database.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-app-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-app-externs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-app-internal-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-app-internal-externs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-auth-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-auth-externs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-client-auth-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-client-auth-externs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-database-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-database-externs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-database-internal-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-database-internal-externs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-error-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-error-externs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-messaging-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-messaging-externs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-storage-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-storage-externs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-app.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-app.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-app.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-auth.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-auth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-browser.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-database.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-database.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-messaging.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-messaging.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-node.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-react-native.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-react-native.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-storage.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-storage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase.d.ts" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging.js" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/ms/index.js" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/ms/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/ms/readme.md" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/ms/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/safe-buffer/README.md" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/safe-buffer/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/safe-buffer/index.js" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/safe-buffer/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/safe-buffer/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/safe-buffer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/safe-buffer/test.js" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/safe-buffer/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/npm-shrinkwrap.json" afterPath="$PROJECT_DIR$/node_modules/firebase/npm-shrinkwrap.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bundle.js" afterPath="$PROJECT_DIR$/public/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/content.css" afterPath="$PROJECT_DIR$/public/css/content.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/newsActions.js" afterPath="$PROJECT_DIR$/src/actions/newsActions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/AddNewsPage.js" afterPath="$PROJECT_DIR$/src/components/pages/AddNewsPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/NewsPage.js" afterPath="$PROJECT_DIR$/src/components/pages/NewsPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HeaderAdmin.js" afterPath="$PROJECT_DIR$/src/components/HeaderAdmin.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/addnewspageComp/AddNewsForm.js" afterPath="$PROJECT_DIR$/src/components/pages/addnewspageComp/AddNewsForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/adduserpageComp/AddUserForm2.js" afterPath="$PROJECT_DIR$/src/components/pages/adduserpageComp/AddUserForm2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons.js" afterPath="$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/newspageComp/NewsList.js" afterPath="$PROJECT_DIR$/src/components/pages/newspageComp/NewsList.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/newsReducer.js" afterPath="$PROJECT_DIR$/src/reducers/newsReducer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/userReducer.js" afterPath="$PROJECT_DIR$/src/reducers/userReducer.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +284,8 @@
           <file leaf-file-name="AdminPage.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/pages/AdminPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="518">
-                  <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+                <state relative-caret-position="519">
+                  <caret line="107" column="29" lean-forward="false" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                     <element signature="e#157#282#0" expanded="true" />
@@ -41,8 +297,24 @@
           <file leaf-file-name="newsActions.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/actions/newsActions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+                <state relative-caret-position="612">
+                  <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+                  <folding>
+                    <marker date="1500278241000" expanded="true" signature="517:902" ph="{...}" />
+                    <marker date="1500278241000" expanded="true" signature="550:900" ph="{...}" />
+                    <marker date="1500278241000" expanded="true" signature="676:893" ph="{...}" />
+                    <marker date="1500278241000" expanded="true" signature="1068:1206" ph="{...}" />
+                    <marker date="1500278241000" expanded="true" signature="1093:1204" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="database.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/database.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -51,9 +323,13 @@
           <file leaf-file-name="newsReducer.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/reducers/newsReducer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-                  <folding />
+                <state relative-caret-position="315">
+                  <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+                  <folding>
+                    <marker date="1500278199000" expanded="true" signature="121:725" ph="{...}" />
+                    <marker date="1500278199000" expanded="true" signature="147:705" ph="{...}" />
+                    <marker date="1500278199000" expanded="true" signature="526:679" ph="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -61,8 +337,8 @@
           <file leaf-file-name="NewsPage.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/pages/NewsPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="660">
-                  <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
                   <folding>
                     <element signature="e#14#40#0" expanded="true" />
                   </folding>
@@ -73,8 +349,8 @@
           <file leaf-file-name="AddNewsPage.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/pages/AddNewsPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="309">
-                  <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+                <state relative-caret-position="511">
+                  <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -83,8 +359,8 @@
           <file leaf-file-name="NewsList.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/pages/newspageComp/NewsList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+                <state relative-caret-position="555">
+                  <caret line="37" column="54" lean-forward="false" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -92,38 +368,32 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UserList.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/pages/edituserpageComp/UserList.js">
+          <file leaf-file-name="content.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/css/content.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="15">
+                  <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+          <file leaf-file-name="LoginPage.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/pages/LoginPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#15#41#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="315">
+                  <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="HeaderAdmin.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/HeaderAdmin.js">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#15#41#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="149">
+                  <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -136,7 +406,7 @@
             <entry file="file://$PROJECT_DIR$/src/components/pages/AddUserPage.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="90">
-                  <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+                  <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -144,12 +414,36 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="loginActions.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/actions/loginActions.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="434">
+                  <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="AddUserForm2.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/pages/adduserpageComp/AddUserForm2.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-490">
-                  <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-                  <folding />
+                <state relative-caret-position="194">
+                  <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#217#257#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -157,8 +451,8 @@
           <file leaf-file-name="configureUserActions.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/actions/configureUserActions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="193">
-                  <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="56" selection-end-column="1" />
+                <state relative-caret-position="870">
+                  <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -167,8 +461,8 @@
           <file leaf-file-name="initialState.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/store/initialState.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+                <state relative-caret-position="517">
+                  <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="41" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -177,8 +471,8 @@
           <file leaf-file-name="confReducer.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/reducers/confReducer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="8" selection-end-column="18" />
+                <state relative-caret-position="270">
+                  <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -187,11 +481,34 @@
           <file leaf-file-name="AddNewsForm.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/pages/addnewspageComp/AddNewsForm.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="471">
-                  <caret line="62" column="66" lean-forward="false" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AdminPageButtons.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                    <marker date="1500273688000" expanded="true" signature="341:901" ph="&lt;ButtonGroup/&gt;" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="userReducer.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/reducers/userReducer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="450">
+                  <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -237,7 +554,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/public/css/navbar.css" />
-        <option value="$PROJECT_DIR$/public/css/content.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/pages/SignUpPage.js" />
         <option value="$PROJECT_DIR$/src/components/pages/LoginPage2.js" />
@@ -261,32 +577,33 @@
         <option value="$PROJECT_DIR$/src/components/pages/edituserpageComp/AddUserForm2.js" />
         <option value="$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons2.js" />
         <option value="$PROJECT_DIR$/src/actions/configureUserActions.js" />
-        <option value="$PROJECT_DIR$/src/reducers/userReducer.js" />
         <option value="$PROJECT_DIR$/src/actions/loginActions.js" />
         <option value="$PROJECT_DIR$/src/store/initialState.js" />
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/components/pages/EditNewsPage.js" />
         <option value="$PROJECT_DIR$/src/components/pages/EditUserPage.js" />
         <option value="$PROJECT_DIR$/src/components/pages/Firstpage.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons.js" />
         <option value="$PROJECT_DIR$/src/components/pages/adminpageComp/NewsAdminPageButtons.js" />
         <option value="$PROJECT_DIR$/src/components/pages/edituserpageComp/UserList.js" />
         <option value="$PROJECT_DIR$/src/components/main.js" />
         <option value="$PROJECT_DIR$/src/components/pages/AddUserPage.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/adduserpageComp/AddUserForm2.js" />
         <option value="$PROJECT_DIR$/src/components/pages/edituserpageComp/IndividualUser2.js" />
         <option value="$PROJECT_DIR$/src/components/pages/loginpageComp/LoginForm.js" />
         <option value="$PROJECT_DIR$/src/components/pages/LoginPage.js" />
         <option value="$PROJECT_DIR$/src/components/pages/AdminPage.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/components/Header.js" />
-        <option value="$PROJECT_DIR$/src/components/HeaderAdmin.js" />
-        <option value="$PROJECT_DIR$/src/actions/newsActions.js" />
-        <option value="$PROJECT_DIR$/src/reducers/newsReducer.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/NewsPage.js" />
-        <option value="$PROJECT_DIR$/src/components/pages/newspageComp/NewsList.js" />
         <option value="$PROJECT_DIR$/src/components/pages/AddNewsPage.js" />
         <option value="$PROJECT_DIR$/src/components/pages/addnewspageComp/AddNewsForm.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/NewsPage.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/adduserpageComp/AddUserForm2.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons.js" />
+        <option value="$PROJECT_DIR$/src/components/HeaderAdmin.js" />
+        <option value="$PROJECT_DIR$/src/reducers/userReducer.js" />
+        <option value="$PROJECT_DIR$/public/css/content.css" />
+        <option value="$PROJECT_DIR$/src/components/pages/newspageComp/NewsList.js" />
+        <option value="$PROJECT_DIR$/src/reducers/newsReducer.js" />
+        <option value="$PROJECT_DIR$/src/actions/newsActions.js" />
       </list>
     </option>
   </component>
@@ -471,6 +788,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="edituserpageComp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intra" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminpageComp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -702,7 +1045,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218680000" />
+    <option name="totallyTimeSpent" value="224995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -758,21 +1101,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/database.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/DeleteUserPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/confuserReducer.js" />
     <entry file="file://$PROJECT_DIR$/src/components/pages/EditUserPage2.js" />
     <entry file="file://$PROJECT_DIR$/src/reducers/data1Reducer.js" />
@@ -877,14 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/loginActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -902,14 +1222,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/adminpageComp/NewsAdminPageButtons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
@@ -945,32 +1257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/LoginPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/loginpageComp/LoginForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/userReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/Firstpage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -981,80 +1267,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#217#257#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding>
-            <element signature="e#15#41#0" expanded="true" />
+            <element signature="e#15#41#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HeaderAdmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-          <folding>
-            <element signature="e#15#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/configureUserActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="56" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/initialState.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/newsReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/confReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="8" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/AddUserPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1066,6 +1292,115 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/loginpageComp/LoginForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/adduserpageComp/AddUserForm2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/confReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/adminpageComp/AdminPageButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1500273688000" expanded="true" signature="341:901" ph="&lt;ButtonGroup/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HeaderAdmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#15#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#217#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/configureUserActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/userReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/LoginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/newspageComp/NewsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="54" lean-forward="false" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+          <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
@@ -1073,8 +1408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/AdminPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="519">
+          <caret line="107" column="29" lean-forward="false" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#157#282#0" expanded="true" />
@@ -1082,28 +1417,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/newsActions.js">
+    <entry file="file://$PROJECT_DIR$/src/actions/loginActions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="434">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/newspageComp/NewsList.js">
+    <entry file="file://$PROJECT_DIR$/src/reducers/newsReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="315">
+          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1500278199000" expanded="true" signature="121:725" ph="{...}" />
+            <marker date="1500278199000" expanded="true" signature="147:705" ph="{...}" />
+            <marker date="1500278199000" expanded="true" signature="526:679" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/newsActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <marker date="1500278241000" expanded="true" signature="517:902" ph="{...}" />
+            <marker date="1500278241000" expanded="true" signature="550:900" ph="{...}" />
+            <marker date="1500278241000" expanded="true" signature="676:893" ph="{...}" />
+            <marker date="1500278241000" expanded="true" signature="1068:1206" ph="{...}" />
+            <marker date="1500278241000" expanded="true" signature="1093:1204" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/NewsPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+        <state relative-caret-position="225">
+          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="e#14#40#0" expanded="true" />
           </folding>
@@ -1112,24 +1471,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/AddNewsPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="511">
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/adduserpageComp/AddUserForm2.js">
+    <entry file="file://$PROJECT_DIR$/src/store/initialState.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-490">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        <state relative-caret-position="517">
+          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="41" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/addnewspageComp/AddNewsForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="62" column="66" lean-forward="false" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

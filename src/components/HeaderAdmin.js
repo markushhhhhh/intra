@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import {Navbar, NavItem, MenuItem, Nav, NavDropdown, Item} from 'react-bootstrap';
 import { Link } from 'react-router';
 //import {NavBar} from './headerComponents/NavBarComponent.js'
-import { LinkContainer } from 'react-router-bootstrap';
+import { LinkContainer, IndexLinkContainer } from 'react-router-bootstrap';
 
 
 
@@ -17,17 +17,17 @@ const HeaderAdmin = ({
     <Navbar collapseOnSelect>
         <Navbar.Header>
             <Navbar.Brand>
-                <LinkContainer to="/">
+                <IndexLinkContainer to="/">
                     <img src="img/mandometer_logo2.png"/>
-                </LinkContainer>
+                </IndexLinkContainer>
             </Navbar.Brand>
             <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
             <Nav>
-                <LinkContainer to="/">
+                <IndexLinkContainer to="/">
                     <NavItem eventKey={1}>Nyheter</NavItem>
-                </LinkContainer>
+                </IndexLinkContainer>
                 <LinkContainer to="/it">
                     <NavItem eventKey={2} >IT</NavItem>
                 </LinkContainer>

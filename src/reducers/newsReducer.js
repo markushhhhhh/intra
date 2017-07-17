@@ -12,6 +12,15 @@ export default function newsReducer(state = initState.news, action) {
                 newsarticles: action.payload
             };
             break;
+        case 'RESET_ARTICLE':
+            return{...state,
+            notpostedarticle: {
+                headline: '',
+                text: '',
+                imgURL: ''
+            }
+            };
+            break;
     }
     return state;
 }

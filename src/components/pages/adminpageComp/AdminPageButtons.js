@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import { Link } from 'react-router';
 import {ButtonGroup, Button} from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
+import { LinkContainer, IndexLinkContainer } from 'react-router-bootstrap';
 
 
 
@@ -11,11 +11,11 @@ const AdminPageButtons = ({
                               renderPropp
                           }) => (
     <ButtonGroup>
-        <LinkContainer to="/admin">
+        <IndexLinkContainer to="/admin">
             <Button
                 onClick={() => renderPropp('RENDER_USERLIST')}
             >Redigera Användare</Button>
-        </LinkContainer>
+        </IndexLinkContainer>
 
         <LinkContainer to="/adduser">
             <Button>Lägg Till Användare</Button>

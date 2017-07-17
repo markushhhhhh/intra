@@ -16,11 +16,15 @@ export default function userReducer(state = initState.activeuser, action) {
         case 'USER_LOGOUT':
             return{...state,
                 username: '',
-                password: '',
-                activesession: false,
+                firstname: '',
+                lastname: '',
+                title: '',
+                department: '',
+                email: '',
                 admin: false,
-                newsadmin: false
-            }
+                newsadmin: false,
+                activesession: false
+            };
             break;
     }
     return state;

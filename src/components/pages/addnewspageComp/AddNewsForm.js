@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 
 import {FormGroup, FormControl, ControlLabel, Col, Row, HelpBlock, Button} from 'react-bootstrap';
 
+import FileUploader from 'react-firebase-file-uploader';
+
 
 const AddNewsForm = ({
                          onSubmitPropp,
@@ -60,7 +62,7 @@ const AddNewsForm = ({
             <HelpBlock>Ladda upp bild</HelpBlock>
         </FormGroup>
 
-        <Button className="btn btn-primary btn-large centerButton" type="submit">Publicera</Button>
+        <Button className="btn btn-primary btn-large centerButton" onClick={onSubmitPropp}>Publicera</Button>
 
     </form> );
 

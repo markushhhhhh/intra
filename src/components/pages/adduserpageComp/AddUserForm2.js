@@ -12,10 +12,7 @@ const AddUserForm2 = ({
                          userPropp,
                      }) =>  (
         <form onSubmit={onSubmitPropp} name="adduser">
-            <FormGroup
-                controlId="formBasicText"
-                validationState={null}
-            >
+
                 <ControlLabel>Användarnamn</ControlLabel>
                 <FormControl
                     type="text"
@@ -24,6 +21,7 @@ const AddUserForm2 = ({
                     placeholder="Ange Användarnamn"
                     onChange={handleTextInputPropp}
                 />
+
 
                 <ControlLabel>Förnamn</ControlLabel>
                 <FormControl
@@ -101,11 +99,9 @@ const AddUserForm2 = ({
                     Nyhetsadmin
                 </Checkbox>
 
-                <FormControl.Feedback />
-                <HelpBlock>Validation is based on string length.</HelpBlock>
+
                 <Button className="btn btn-primary btn-large centerButton" type="submit">Skapa Ny Användare</Button>
 
-            </FormGroup>
         </form>
     );
 

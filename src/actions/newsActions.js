@@ -1,13 +1,14 @@
 import database from './../database.js'
 
 export function addArticleToDB(article) {
-    return function () {
+    return function (dispatch) {
         const newsRef = database.database().ref('newsDB/articles/');
         newsRef.push().then((snapshot) => {
             const uniqueArticleKey = snapshot.key;
             const reffi = database.database().ref('newsDB/articles/' + uniqueArticleKey);
             reffi.set({...article, aid: uniqueArticleKey});
         })
+        dispatch(resetArticle())
     }
 }
 
@@ -43,5 +44,11 @@ export function updateNotPostedArticle(article) {
     return{
         type: 'UPDATE_NOTPOSTEDARTICLE',
         payload: article
+    }
+}
+
+export function resetArticle() {
+    return {
+        type: 'RESET_ARTICLE'
     }
 }
