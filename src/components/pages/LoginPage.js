@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 
 import LoginForm from './loginpageComp/LoginForm.js'
 
+const Router = require('react-router');
+
 class LoginPage extends React.Component {
 
 
@@ -17,6 +19,7 @@ class LoginPage extends React.Component {
     processForm = (event) => {
         //prevent default action. in this case, action is the form submission event
         event.preventDefault();
+        Router.browserHistory.push('/');
         this.props.userLoginPropp(this.props.activeuserPropp);
     };
 

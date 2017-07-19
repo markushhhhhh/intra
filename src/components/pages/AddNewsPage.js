@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import AddNewsForm from './addnewspageComp/AddNewsForm.js';
-
+import database from './../../database.js'
 
 class AddNewsPage extends React.Component {
 
@@ -18,23 +18,32 @@ componentDidMount(){
         this.props.updateNotPostedArticle(obj);
     };
 
+
+
     processForm = (event) => {
         // prevent default action. in this case, action is the form submission event
         event.preventDefault();
         //this.props.firebasePromise();
         console.log(event.target.name);
+
         const article = {...this.props.notpostedarticle,
-        author: this.props.activeuser.firstname + ' ' + this.props.activeuser.lastname,
-        department: this.props.activeuser.department,
-        title: this.props.activeuser.title
+            author: this.props.activeuser.firstname + ' ' + this.props.activeuser.lastname,
+            department: this.props.activeuser.department,
+            title: this.props.activeuser.title
         };
-        console.log(article);
         this.props.addArticleToDB(article)
     };
 
    onSubmitTest = (event) => {
        console.log('ON SUBMIT TEST !!');
-   }
+   };
+
+   handleUploadSuccess = (filename) => {
+       this.props.imgUpload(filename);
+       //console.log(database.storage().ref('images'));
+       //database.storage().ref('images').child(filename).getDownloadURL().then(url =>
+       //this.props.updateNotPostedArticle({imgURL: url})
+   };
 
     render() {
         return (<div>
@@ -44,6 +53,7 @@ componentDidMount(){
                     handleTextInputPropp={this.handleTextInput}
                     notpostedarticlePropp={this.props.notpostedarticle}
                     onSubmitTestPropp={this.onSubmitTest}
+                    handleUploadSuccessPropp={this.handleUploadSuccess}
                 />
             </div>
         );

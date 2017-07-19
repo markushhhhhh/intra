@@ -1,0 +1,64 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
+
+class ArticlePage extends React.Component {
+
+
+
+
+    render() {
+
+        const articleNode = this.props.newsarticles.map((article, i) =>{
+            console.log(article);
+            console.log(this.props.params.aid);
+            if(article.aid === this.props.params.aid)
+                return (
+                <div key={i} className="row">
+                    <h1>{article.headline}</h1><br/>
+                    <p>{article.text}</p><br/>
+                    <img src={article.imgURL}/><br/>
+                    {article.imgheadline}<br/>
+                    {article.author + ' ' + article.date}
+                </div>
+
+            )
+        });
+
+        return (<div>
+                {articleNode}
+            </div>
+        );
+
+    }
+
+}
+
+/*import React from 'react';
+import PropTypes from 'prop-types';
+
+const ArticlePage = ({
+    params,
+}) => {
+    console.log(params);
+
+
+    return (
+        <div>
+            {params.aid}
+        </div>
+    )};*/
+
+ArticlePage.propTypes = {
+    params: PropTypes.object,
+};
+
+function mapStateToProps(state){
+    return{
+        newsarticles: state.news.newsarticles
+    }
+}
+
+export default connect(mapStateToProps)(ArticlePage);

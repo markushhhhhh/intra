@@ -29,7 +29,7 @@ const HeaderAdmin = ({
                     <NavItem eventKey={1}>Nyheter</NavItem>
                 </IndexLinkContainer>
                 <LinkContainer to="/it">
-                    <NavItem eventKey={2} >IT</NavItem>
+                    <NavItem eventKey={1} >IT</NavItem>
                 </LinkContainer>
                 <LinkContainer to="/board">
                     <NavItem eventKey={3}>Anslagstavla</NavItem>

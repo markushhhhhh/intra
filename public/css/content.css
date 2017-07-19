@@ -1,3 +1,9 @@
-.newstext {
+.newsText {
     white-space: pre;
 }
+
+.newsImg {
+    height: 200px;
+    width: 200px;
+}
+

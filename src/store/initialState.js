@@ -38,7 +38,15 @@ const initialState = {
         notpostedarticle: {
             headline: '',
             text: '',
-            imgURL: ''
+            imgURL: '',
+            date: '',
+            imgheadline: ''
+        },
+        fileuploader: {
+            avatar: '',
+            isUploading : false,
+            progress: 0,
+            avatarURL: ''
         }
     }
 };

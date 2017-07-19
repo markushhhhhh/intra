@@ -5,13 +5,16 @@ import {FormGroup, FormControl, ControlLabel, Col, Row, HelpBlock, Button} from 
 
 import FileUploader from 'react-firebase-file-uploader';
 
+import database from './../../../database.js'
+
 
 const AddNewsForm = ({
                          onSubmitPropp,
                          activeuserPropp,
                          handleTextInputPropp,
                         notpostedarticlePropp,
-                        onSubmitTestPropp
+                        onSubmitTestPropp,
+                        handleUploadSuccessPropp
                      }) =>  (
     <form>
         <Row>
@@ -56,11 +59,21 @@ const AddNewsForm = ({
                 onChange={handleTextInputPropp}
             />
         </FormGroup>
-        <FormGroup controlId='formControlsFile'>
-            <ControlLabel>Fil</ControlLabel>
-            <FormControl type="file" />
-            <HelpBlock>Ladda upp bild</HelpBlock>
-        </FormGroup>
+        <ControlLabel>Bildtext</ControlLabel>
+        <FormControl
+            type="text"
+            placeholder="Bildtext..."
+            name="imgheadline"
+            value={notpostedarticlePropp.imgheadline}
+            onChange={handleTextInputPropp}
+        />
+        <FileUploader
+        accept="image/*"
+        name="avatar"
+        storageRef={database.storage().ref('images')}
+        onUploadSuccess={handleUploadSuccessPropp}
+        />
+        <img src={notpostedarticlePropp.imgURL}/>
 
         <Button className="btn btn-primary btn-large centerButton" onClick={onSubmitPropp}>Publicera</Button>
 
@@ -71,7 +84,8 @@ AddNewsForm.propTypes = {
     activeuserPropp: PropTypes.object,
     handleTextInputPropp: PropTypes.func,
     notpostedarticlePropp: PropTypes.object,
-    onSubmitTestPropp: PropTypes.func
+    onSubmitTestPropp: PropTypes.func,
+    handleUploadSuccessPropp: PropTypes.func
 };
 
 export default AddNewsForm;

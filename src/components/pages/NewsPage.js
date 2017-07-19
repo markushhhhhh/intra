@@ -9,6 +9,9 @@ import {subscribeToNews, unsubscribeToNews} from './../../actions/newsActions.js
 
 import NewsList from './newspageComp/NewsList.js'
 
+import {Grid} from 'react-bootstrap';
+
+
 
 class NewsPage extends React.Component{
 
@@ -24,11 +27,13 @@ class NewsPage extends React.Component{
 
         return(
             <div>
-                <h1>NewsPage!!</h1>
+                <h1>Nyheter</h1>
+                <Grid>
                 <NewsList
                 newsarticlesPropp={this.props.newsarticles}
                 visiblePropp={true}
                 />
+                </Grid>
             </div>
         )
     }

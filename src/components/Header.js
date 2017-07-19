@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import {Navbar, NavItem, MenuItem, Nav, NavDropdown, Item} from 'react-bootstrap';
 import { Link } from 'react-router';
 //import {NavBar} from './headerComponents/NavBarComponent.js'
-import { LinkContainer } from 'react-router-bootstrap';
+import { LinkContainer, IndexLinkContainer } from 'react-router-bootstrap';
 
 
 
@@ -25,11 +25,11 @@ const Header = ({
         </Navbar.Header>
         <Navbar.Collapse>
             <Nav>
-                <LinkContainer to="/">
+                <IndexLinkContainer to="/">
                     <NavItem eventKey={1}>Nyheter</NavItem>
-                </LinkContainer>
+                </IndexLinkContainer>
                 <LinkContainer to="/second">
-                    <NavItem eventKey={2} >IT</NavItem>
+                    <NavItem eventKey={1} >IT</NavItem>
                 </LinkContainer>
                 <LinkContainer to="/third">
                     <NavItem eventKey={3}>Anslagstavla</NavItem>

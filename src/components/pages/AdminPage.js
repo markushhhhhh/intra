@@ -6,7 +6,7 @@ import { bindActionCreators } from 'redux';
 //Actions
 import {renderAddUserPage, renderAddUserForm, renderComponent, unrenderComponent} from './../../actions/componentsActions.js'
 import {addUserToDB, updateUserInDB, deleteUserFromDB, subscribeToUsers, unsubscribeToUsers, updateUserToConf, getUserToConf, resetUser, firebasePromise} from './../../actions/configureUserActions.js'
-import {updateNotPostedArticle, addArticleToDB} from './../../actions/newsActions.js'
+import {updateNotPostedArticle, addArticleToDB, imgUpload} from './../../actions/newsActions.js'
 
 import AdminPageButtons from './adminpageComp/AdminPageButtons.js';
 import NewsAdminPageButtons from './adminpageComp/NewsAdminPageButtons.js';
@@ -106,6 +106,7 @@ function mapDispatchToProps(dispatch) {
         unsubscribeToUsers: unsubscribeToUsers, //configureUserActions
         updateNotPostedArticle: updateNotPostedArticle,
         addArticleToDB: addArticleToDB,
+        imgUpload: imgUpload,
         firebasePromise: firebasePromise
     }, dispatch)
 }
