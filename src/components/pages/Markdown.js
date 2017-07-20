@@ -1,16 +1,15 @@
-
 import React from 'react';
-import ReactMarkdownEditor from 'react-markdown-editor';
+import MarkdownEditor from 'react-markdown-editor'
 
-class ExampleWithOnChangeContent extends React.Component{
+class Markdown extends React.Component{
+
     render(){
         return(
-            <div>
-                <ReactMarkdownEditor/>
-            </div>
+            <MarkdownEditor initialContent="Test" iconsSet="font-awesome"/>
         )
     }
 }
 
 
-export default ExampleWithOnChangeContent;
+
+export default Markdown;

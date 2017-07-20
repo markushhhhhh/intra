@@ -19,7 +19,7 @@ class ArticlePage extends React.Component {
                 return (
                 <div key={i} className="row">
                     <h1>{article.headline}</h1><br/>
-                    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(article.text.text) }}/>
+                    <div className="articleText" dangerouslySetInnerHTML={{ __html: converter.makeHtml(article.text.text) }}/>
 
                     <br/>
                     <img src={article.imgURL}/><br/>

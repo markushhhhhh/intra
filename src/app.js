@@ -43,7 +43,7 @@ import "./../public/css/normalize.css";
 //import './../public/css/font-awesome.css';
 import '../public/css/react-mde.scss';
 import '../public/css/react-mde-command-styles.scss';
-//import '../public/css/demo.scss';
+import '../public/css/demo.scss';
 import '../public/css/markdown-default-theme.scss';
 
 

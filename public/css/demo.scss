@@ -1,18 +1,30 @@
 @import 'variables.scss';
 
+/*
 body {
         font-size: 14px;
 }
+*/
 
-.container {
-        width: 600px;
-        border: 1px solid;
-        padding: 8px;
-        margin: 10px auto;
+
+.fa-picture-o {
+  display: none;
 }
+
+.react-mde .mde-preview {
+  white-space: pre-line;
+}
+
+//.container {
+//        width: 600px;
+//        border: 1px solid;
+//        padding: 8px;
+//        margin: 10px auto;
+//}
+/*
 
 @media screen and (min-width: 768px) {
     .container {
         margin: 50px auto;
     }
-}
+}*/
