@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import AddNewsForm from './addnewspageComp/AddNewsForm.js';
 import database from './../../database.js'
 
+import { ReactMde, ReactMdeCommands } from 'react-mde';
+
 class AddNewsPage extends React.Component {
 
 

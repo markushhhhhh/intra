@@ -28,7 +28,7 @@ const Header = ({
                 <IndexLinkContainer to="/">
                     <NavItem eventKey={1}>Nyheter</NavItem>
                 </IndexLinkContainer>
-                <LinkContainer to="/second">
+                <LinkContainer to="/it">
                     <NavItem eventKey={1} >IT</NavItem>
                 </LinkContainer>
                 <LinkContainer to="/third">
