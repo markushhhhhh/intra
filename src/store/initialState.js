@@ -37,7 +37,10 @@ const initialState = {
         newsarticles: [],
         notpostedarticle: {
             headline: '',
-            text: '',
+            text: {
+                selection: null,
+                text: ''
+            },
             imgURL: '',
             date: '',
             imgheadline: ''

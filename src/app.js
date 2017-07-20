@@ -53,7 +53,7 @@ const Routes = (
         <Router history={browserHistory}>
             <Route path='/' component={Main}>
                 <IndexRoute component={NewsPageComponent}/>
-                <Route path="/news/:aid" component={NotFound}/>
+                <Route path="/news/:aid" component={ArticlePageComponent}/>
                 <Route path="/it" component={Markdown2}/>
                 <Route path='/admin' component={AdminPageComponent}>
                     <IndexRoute component={EditUserPageComponent}/>

@@ -19,20 +19,20 @@ const AddNewsForm = ({
     <form>
         <Row>
             <Col md={4}>
-                <ControlLabel>Författare</ControlLabel>
                 <FormControl.Static>
+                    <ControlLabel>Författare</ControlLabel><br/>
                     {activeuserPropp.firstname + ' ' + activeuserPropp.lastname}
                 </FormControl.Static>
             </Col>
             <Col md={4}>
-                <ControlLabel>Avdelning</ControlLabel>
                 <FormControl.Static>
+                    <ControlLabel>Avdelning</ControlLabel><br/>
                     {activeuserPropp.department}
                 </FormControl.Static>
             </Col>
             <Col md={4}>
-                <ControlLabel>Befattning</ControlLabel>
                 <FormControl.Static>
+                    <ControlLabel>Befattning</ControlLabel><br/>
                     {activeuserPropp.title}
                 </FormControl.Static>
             </Col>
@@ -47,36 +47,6 @@ const AddNewsForm = ({
                 onChange={handleTextInputPropp}
             />
         </FormGroup>
-
-        <FormGroup controlId="formControlsTextarea">
-            <ControlLabel>Text</ControlLabel>
-            <FormControl
-                componentClass="textarea"
-                placeholder="Skriv här..."
-                style={{height: '50%'}}
-                name="text"
-                value={notpostedarticlePropp.text}
-                onChange={handleTextInputPropp}
-            />
-        </FormGroup>
-        <ControlLabel>Bildtext</ControlLabel>
-        <FormControl
-            type="text"
-            placeholder="Bildtext..."
-            name="imgheadline"
-            value={notpostedarticlePropp.imgheadline}
-            onChange={handleTextInputPropp}
-        />
-        <FileUploader
-        accept="image/*"
-        name="avatar"
-        storageRef={database.storage().ref('images')}
-        onUploadSuccess={handleUploadSuccessPropp}
-        />
-        <img src={notpostedarticlePropp.imgURL}/>
-
-        <Button className="btn btn-primary btn-large centerButton" onClick={onSubmitPropp}>Publicera</Button>
-
     </form> );
 
 AddNewsForm.propTypes = {

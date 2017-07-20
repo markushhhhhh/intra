@@ -1,7 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import AddNewsForm from './addnewspageComp/AddNewsForm.js';
+import FileUploaderComp from './addnewspageComp/FileUploader.js';
 import database from './../../database.js'
+
+import {Button} from 'react-bootstrap';
 
 import { ReactMde, ReactMdeCommands } from 'react-mde';
 
@@ -12,7 +15,15 @@ componentDidMount(){
     console.log(this.props.activeuser, ' ACTIVEUSER');
 }
 
-    handleTextInput = (event) => {
+handleValueChange = (value) => {
+    const article = {...this.props.notpostedarticle,
+        text: value
+    };
+    this.props.updateNotPostedArticle(article)
+}
+
+
+handleTextInput = (event) => {
         let obj = {};
         let field = event.target.name;
         let val = event.target.value;
@@ -48,6 +59,7 @@ componentDidMount(){
    };
 
     render() {
+        let commands = ReactMdeCommands.getDefaultCommands();
         return (<div>
                 <AddNewsForm
                     onSubmitPropp={this.processForm}
@@ -57,6 +69,21 @@ componentDidMount(){
                     onSubmitTestPropp={this.onSubmitTest}
                     handleUploadSuccessPropp={this.handleUploadSuccess}
                 />
+                <div className="container">
+
+                    <ReactMde
+                        textareaId="ta1"
+                        textareaName="ta1"
+                        value={this.props.notpostedarticle.text}
+                        onChange={this.handleValueChange}
+                        commands={commands} />
+                </div>
+                <FileUploaderComp
+                    notpostedarticlePropp={this.props.notpostedarticle}
+                    handleUploadSuccessPropp={this.handleUploadSuccess}
+                    handleTextInputPropp={this.handleTextInput}
+                />
+                <Button className="btn btn-primary btn-large centerButton" onClick={this.processForm}>Publicera</Button>
             </div>
         );
 

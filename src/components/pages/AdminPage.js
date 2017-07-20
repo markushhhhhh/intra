@@ -32,7 +32,7 @@ class AdminPage extends React.Component {
 
     componentDidMount(){
         this.props.subscribeToUsers();
-        this.props.unrenderComponent('UNRENDER_USERLIST');
+        this.props.renderComponent('RENDER_USERLIST');
         this.props.unrenderComponent('UNRENDER_INDIVIDUALUSER');
     }
 

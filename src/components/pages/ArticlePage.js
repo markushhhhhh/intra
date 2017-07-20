@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
+import showdown from 'showdown'
 
 class ArticlePage extends React.Component {
 
@@ -12,13 +13,15 @@ class ArticlePage extends React.Component {
     render() {
 
         const articleNode = this.props.newsarticles.map((article, i) =>{
-            console.log(article);
-            console.log(this.props.params.aid);
+            const converter = new showdown.Converter();
+            //console.log(converter.(article.text.text))
             if(article.aid === this.props.params.aid)
                 return (
                 <div key={i} className="row">
                     <h1>{article.headline}</h1><br/>
-                    <p>{article.text}</p><br/>
+                    <div dangerouslySetInnerHTML={{ __html: converter.makeHtml(article.text.text) }}/>
+
+                    <br/>
                     <img src={article.imgURL}/><br/>
                     {article.imgheadline}<br/>
                     {article.author + ' ' + article.date}

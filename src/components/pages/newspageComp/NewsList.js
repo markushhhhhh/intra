@@ -16,7 +16,7 @@ const NewsList = ({
 
             <Thumbnail src={(article.imgURL === '')?('img/Mandometer_logo2.png'):(article.imgURL)} alt="242x200">
                 <h3>{article.headline}</h3>
-                <p>{article.text.substring(0,100) + '...'}</p>
+                <p></p>
                 <Row>
                 <Col xs={4} md={4}><p>
                     <Button bsStyle="primary">Button</Button>&nbsp;

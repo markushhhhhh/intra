@@ -16,7 +16,10 @@ export default function newsReducer(state = initState.news, action) {
             return{...state,
             notpostedarticle: {
                 headline: '',
-                text: '',
+                text: {
+                    selection: null,
+                    text: ''
+                },
                 imgURL: '',
                 imgheadline: ''
             }
