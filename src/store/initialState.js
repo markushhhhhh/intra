@@ -9,7 +9,8 @@ const initialState = {
         email: '',
         admin: false,
         newsadmin: false,
-        activesession: false
+        activesession: false,
+        profileimgURL: ''
     },
     components: {
         admincomponents: {
@@ -29,14 +30,33 @@ const initialState = {
             email: '',
             password: '',
             admin: false,
-            newsadmin: false
+            newsadmin: false,
+            profileimgURL: ''
         },
         oldusername: ''
     },
     news: {
         newsarticles: [],
-        notpostedarticle: {
+        article: {
+            aid: '',
+            author: '',
+            department: '',
             headline: '',
+            title: '',
+            text: {
+                selection: null,
+                text: ''
+            },
+            imgURL: '',
+            date: '',
+            imgheadline: ''
+        },
+        notpostedarticle: {
+            aid: '',
+            author: '',
+            department: '',
+            headline: '',
+            title: '',
             text: {
                 selection: null,
                 text: ''

@@ -16,7 +16,7 @@ const AddNewsForm = ({
                         onSubmitTestPropp,
                         handleUploadSuccessPropp
                      }) =>  (
-    <form>
+    <div>
         <Row>
             <Col md={4}>
                 <FormControl.Static>
@@ -38,7 +38,6 @@ const AddNewsForm = ({
             </Col>
         </Row>
         <ControlLabel>Rubriktitel</ControlLabel>
-        <FormGroup bsSize="large">
             <FormControl
                 type="text"
                 placeholder="Titel..."
@@ -46,8 +45,8 @@ const AddNewsForm = ({
                 value={notpostedarticlePropp.headline}
                 onChange={handleTextInputPropp}
             />
-        </FormGroup>
-    </form> );
+
+    </div> );
 
 AddNewsForm.propTypes = {
     onSubmitPropp: PropTypes.func,

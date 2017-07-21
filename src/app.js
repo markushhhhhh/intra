@@ -18,6 +18,10 @@ import AddNewsPageComponent from './components/pages/AddNewsPage.js'
 import NewsPageComponent from './components/pages/NewsPage.js'
 import ArticlePageComponent from './components/pages/ArticlePage.js'
 import Markdown2 from './components/pages/Markdown2.js'
+import ProfilePageComponent from './components/pages/ProfilePage.js'
+import MyProfileComponent from './components/pages/MyProfilePage.js';
+import EditMyProfileComponent from './components/pages/EditMyProfilePage.js';
+import MyArticlesComponent from './components/pages/MyArticlesPage.js';
 
 
 
@@ -28,7 +32,9 @@ import constructedStore from './store/store.js';
 
 
 // this component handles all routes that are not defined
-const NotFound = () => <h1>404... The page is not found</h1>
+const NotFound = () => <h1>404... The page is not found</h1>;
+
+
 
 /*const ArticleViewComponent = () => <div>
     <div data-provide="markdown-editable">
@@ -55,12 +61,18 @@ const Routes = (
                 <IndexRoute component={NewsPageComponent}/>
                 <Route path="/news/:aid" component={ArticlePageComponent}/>
                 <Route path="/it" component={Markdown2}/>
+                <Route path="/profile" component={ProfilePageComponent}>
+                    <IndexRoute component={MyProfileComponent}/>
+                    <Route path="/editprofile" component={EditMyProfileComponent}/>
+                    <Route path="/myarticles" component={MyArticlesComponent}/>
+                </Route>
                 <Route path='/admin' component={AdminPageComponent}>
                     <IndexRoute component={EditUserPageComponent}/>
                     <Route path="/adduser" component={AddUserPageComponent}/>
                     <Route path="/addnews" component={AddNewsPageComponent}/>
                     <Route path="/editnews" component={EditNewsPageComponent}/>
                 </Route>
+
                 <Route path='*' component={NotFound}/>
             </Route>
         </Router>

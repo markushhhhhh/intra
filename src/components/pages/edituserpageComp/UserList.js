@@ -22,14 +22,12 @@ const UserList = ({
 ) : null;
 
 UserList.propTypes = {
-    usersPropp: PropTypes.array.isRequired,
-    handleClickOnUserPropp: PropTypes.func.isRequired,
-    visiblePropp: PropTypes.bool.isRequired
+    usersPropp: PropTypes.array,
+    handleClickOnUserPropp: PropTypes.func,
+    visiblePropp: PropTypes.bool
 };
 
-/*
-onTouchTap={() => handleClickOnUserPropp(user)}
-*/
+
 
 export default UserList;
 

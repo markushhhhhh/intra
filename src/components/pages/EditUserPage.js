@@ -6,15 +6,6 @@ import AddUserForm2 from './adduserpageComp/AddUserForm2.js';
 
 class EditUserPage extends React.Component {
 
-    /**
-     * Class constructor
-     */
-    constructor(props) {
-        super(props);
-
-        //Set the initial component state
-    }
-
 
 
     handleClickOnUser = (user) => {
@@ -56,6 +47,8 @@ class EditUserPage extends React.Component {
         //this.props.firebasePromise();
         console.log(event.target.name);
         this.props.updateUserInDB(this.props.user, this.props.oldusername);
+        this.props.unrenderComponent('UNRENDER_INDIVIDUALUSER');
+        this.props.renderComponent('RENDER_USERLIST');
 
     };
 

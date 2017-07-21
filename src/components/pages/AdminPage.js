@@ -6,7 +6,7 @@ import { bindActionCreators } from 'redux';
 //Actions
 import {renderAddUserPage, renderAddUserForm, renderComponent, unrenderComponent} from './../../actions/componentsActions.js'
 import {addUserToDB, updateUserInDB, deleteUserFromDB, subscribeToUsers, unsubscribeToUsers, updateUserToConf, getUserToConf, resetUser, firebasePromise} from './../../actions/configureUserActions.js'
-import {updateNotPostedArticle, addArticleToDB, imgUpload} from './../../actions/newsActions.js'
+import {updateNotPostedArticle, addArticleToDB, imgUpload, subscribeToNews, unsubscribeToNews, deleteArticle} from './../../actions/newsActions.js'
 
 import AdminPageButtons from './adminpageComp/AdminPageButtons.js';
 import NewsAdminPageButtons from './adminpageComp/NewsAdminPageButtons.js';
@@ -86,7 +86,9 @@ function mapStateToProps(state){
         adduserformC: state.components.admincomponents.adduserformC,
         userlistC: state.components.admincomponents.userlistC,
         editindividualuserC: state.components.admincomponents.editindividualuserC,
-        notpostedarticle: state.news.notpostedarticle
+        notpostedarticle: state.news.notpostedarticle,
+        newsarticles: state.news.newsarticles,
+        article: state.news.article
     }
 }
 
@@ -107,7 +109,10 @@ function mapDispatchToProps(dispatch) {
         updateNotPostedArticle: updateNotPostedArticle,
         addArticleToDB: addArticleToDB,
         imgUpload: imgUpload,
-        firebasePromise: firebasePromise
+        firebasePromise: firebasePromise,
+        subscribeToNews: subscribeToNews,
+        unsubscribeToNews: unsubscribeToNews,
+        deleteArticle: deleteArticle
     }, dispatch)
 }
 

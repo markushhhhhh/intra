@@ -10,3 +10,7 @@
 .articleText{
     white-space: pre-line;
 }
+
+.newsListBtn{
+    float: right;
+}

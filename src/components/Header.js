@@ -38,7 +38,7 @@ const Header = ({
 
 
                 <NavDropdown eventKey={6} title="Mando" id="basic-nav-dropdown">
-                    <LinkContainer to="/fourth">
+                    <LinkContainer to="/profile">
                         <NavItem eventKey={6.1}>Profil</NavItem>
                     </LinkContainer>
                     <LinkContainer to="/fifth">

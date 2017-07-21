@@ -14,11 +14,8 @@ const IndividualUser = ({
                             oldusernamePropp,
                             visiblePropp
                         }) => (visiblePropp === true) ? (
-<form onSubmit={onSubmitPropp} name="updateuser">
-    <FormGroup
-        controlId="formBasicText"
-        validationState={null}
-    >
+<form name="updateuser">
+
 
         <ControlLabel>Användare</ControlLabel>
         <FormControl.Static>
@@ -113,15 +110,13 @@ const IndividualUser = ({
         <HelpBlock>Validation is based on string length.</HelpBlock>
         <Button
             className="btn btn-primary btn-large centerButton"
-            type="submit"
+            onClick={onSubmitPropp}
         >Uppdatera</Button>
         <Button
             className="btn btn-danger btn-large centerButton"
             onClick={handleDeletePropp}
         >Radera</Button>
 
-
-    </FormGroup>
 </form>) : null;
 
 IndividualUser.propTypes = {

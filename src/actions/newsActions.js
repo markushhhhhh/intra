@@ -87,3 +87,10 @@ export function imgUpload(filename) {
         )
     }
 }
+
+export function deleteArticle(aid) {
+    return function () {
+        const articlesRef = database.database().ref('newsDB/articles');
+        articlesRef.child(aid).remove();
+    }
+}

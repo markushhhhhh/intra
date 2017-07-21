@@ -25,6 +25,11 @@ export default function newsReducer(state = initState.news, action) {
             }
             };
             break;
+        case 'GET_ARTICLE_TO_CONF':
+            return{...state,
+                article: {...state.article, ...action.payload}
+            };
+            break;
     }
     return state;
 }

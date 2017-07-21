@@ -11,7 +11,7 @@ const AddUserForm2 = ({
                          handleSelectInputPropp,
                          userPropp,
                      }) =>  (
-        <form onSubmit={onSubmitPropp} name="adduser">
+        <form  name="adduser">
 
                 <ControlLabel>Användarnamn</ControlLabel>
                 <FormControl
@@ -100,7 +100,7 @@ const AddUserForm2 = ({
                 </Checkbox>
 
 
-                <Button className="btn btn-primary btn-large centerButton" type="submit">Skapa Ny Användare</Button>
+                <Button className="btn btn-primary btn-large centerButton" onClick={onSubmitPropp}>Skapa Ny Användare</Button>
 
         </form>
     );
