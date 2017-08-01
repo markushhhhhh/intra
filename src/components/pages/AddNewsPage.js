@@ -42,7 +42,8 @@ handleTextInput = (event) => {
         const article = {...this.props.notpostedarticle,
             author: this.props.activeuser.firstname + ' ' + this.props.activeuser.lastname,
             department: this.props.activeuser.department,
-            title: this.props.activeuser.title
+            title: this.props.activeuser.title,
+            username: this.props.activeuser.username
         };
         this.props.addArticleToDB(article)
     };
@@ -78,6 +79,9 @@ handleTextInput = (event) => {
                         onChange={this.handleValueChange}
                         commands={commands} />
                 </div>
+                här är bildlänken
+                {this.props.notpostedarticle.imgURL}
+
                 <FileUploaderComp
                     notpostedarticlePropp={this.props.notpostedarticle}
                     handleUploadSuccessPropp={this.handleUploadSuccess}

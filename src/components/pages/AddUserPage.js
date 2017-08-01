@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import AddUserForm2 from './adduserpageComp/AddUserForm2.js';
+import FileUploaderComp2 from './adduserpageComp/FileUploader2.js';
+import {Button} from 'react-bootstrap';
 
 class AddUserPage extends React.Component {
 
@@ -52,6 +54,13 @@ class AddUserPage extends React.Component {
             this.props.addUserToDB(this.props.user)
     };
 
+    handleUploadSuccess = (filename) => {
+        //this.props.imgUpload(filename);
+        this.props.profileImgUpload(filename);
+        //console.log(database.storage().ref('images'));
+        //database.storage().ref('images').child(filename).getDownloadURL().then(url =>
+        //this.props.updateNotPostedArticle({imgURL: url})
+    };
 
     render() {
         return (<div>
@@ -62,6 +71,12 @@ class AddUserPage extends React.Component {
                     handleSelectInputPropp={this.handleSelectInput}
                     userPropp={this.props.user}
                 />
+                <FileUploaderComp2
+                    userPropp={this.props.user}
+                    handleUploadSuccessPropp={this.handleUploadSuccess}
+                    handleTextInputPropp={this.handleTextInput}
+                />
+                <Button className="btn btn-primary btn-large centerButton" onClick={this.processForm}>Skapa Ny Användare</Button>
             </div>
         );
 

@@ -100,7 +100,6 @@ const AddUserForm2 = ({
                 </Checkbox>
 
 
-                <Button className="btn btn-primary btn-large centerButton" onClick={onSubmitPropp}>Skapa Ny Användare</Button>
 
         </form>
     );

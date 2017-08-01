@@ -1,15 +1,25 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import UserList from './edituserpageComp/UserList.js';
-import IndividualUser2 from './edituserpageComp/IndividualUser2.js';
-import AddUserForm2 from './adduserpageComp/AddUserForm2.js';
+import ArticleList from './myarticlespageComp/ArticleList.js'
 
 class MyArticlesPage extends React.Component {
 
+    //Handles a click on delete in ArticleList, it deletes the article
+    handleClickOnDeleteArticle = (aid) => {
+        this.props.deleteArticle(aid);
+    };
 
     render() {
-        return (<div>
+
+        return (
+
+
+            <div>
                 Mina Artiklar
+                <ArticleList
+                    usernamePropp={this.props.activeuser.username}
+                    newsarticlesPropp={this.props.newsarticles}
+                    handleClickOnDeleteArticlePropp={this.handleClickOnDeleteArticle}
+                />
             </div>
         );
 

@@ -1,82 +1,54 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {Link, IndexLink} from 'react-router';
-import {Media, Image, Col, Thumbnail, Button, Row} from 'react-bootstrap';
-import { LinkContainer, IndexLinkContainer } from 'react-router-bootstrap';
+//Imported Bootstrap components
+import {Media, Col, Thumbnail, Button, Row} from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 
+//The NewsListComponent
 const NewsList = ({
+                      //Properties that is attached to the component from its parent
                       newsarticlesPropp,
-                      visiblePropp
+                      visiblePropp,
+                      handleClickOnArticlePropp
                   }) => {
+    //traverses trough the array(newsArticlePropp) and returns multiple elements with specific articledata in each element
+    const articles = newsarticlesPropp.map((article, i) =>{
+        return (
+            <Col xs={6} md={4}  className="thumbCol" key={i} onClick={handleClickOnArticlePropp}>
+                <LinkContainer to={'/news/' + article.aid} >
+
+                    <Thumbnail  src={(article.imgURL === '')?('img/Mandometer_logo2 kopia.png'):(article.imgURL)} alt="300x300">
+                        <h3>{article.headline}</h3>
+                        <Row>
+                            <Col xs={4} md={4}><p>
+                                <Button bsStyle="primary">Läs</Button>&nbsp;
+                            </p>
+                            </Col>
+                            <Col xs={8} md={8} className="thumbnailAuthorText">
+                                {article.author + ' - ' + article.title + ' - ' + article.department}<br/>
+                                {article.date}
+                            </Col>
+                        </Row>
+                    </Thumbnail>
+
+
+                </LinkContainer>
+            </Col>
+
+        )
+    });
     return(
-    (visiblePropp === true)?(<div>{newsarticlesPropp.map((article, i) =>
-        <LinkContainer to={'/news/' + article.aid} key={i}>
-        <Col xs={6} md={4}  className="thumbCol">
-
-            <Thumbnail src={(article.imgURL === '')?('img/Mandometer_logo2.png'):(article.imgURL)} alt="242x200">
-                <h3>{article.headline}</h3>
-                <p></p>
-                <Row>
-                <Col xs={4} md={4}><p>
-                    <Button bsStyle="primary">Button</Button>&nbsp;
-                </p>
-                </Col>
-                <Col xs={8} md={8}>
-                    {article.author + '-' + article.title + '-' + article.department}<br/>
-                    {article.date}
-                </Col>
-                </Row>
-            </Thumbnail>
-        </Col>
-        </LinkContainer>
-            )}</div>):(null)
-)
+        //if visiblePropp is true it returns the entire big element, if visiblePropp is false it returns null
+        (visiblePropp === true)?(<Row>{articles}</Row>):(null)
+    )
 };
 
-
-
-
-
-    /*(visiblePropp === true) ? (
-
-    <div>
-
-        {newsarticlesPropp.map((article, i) =>
-        <Col xs={6} md={4} key={i}>
-
-            <Thumbnail src={(article.imgURL === '')?('img/Mandometer_logo2.png'):(article.imgURL)} alt="242x200">
-                <h3>{article.headline}</h3>
-                <p>{article.text.substring(0,100) + '...'}</p>
-                <p>
-                    <Button bsStyle="primary">Button</Button>&nbsp;
-                    <Button bsStyle="default">Button</Button>
-                </p>
-            </Thumbnail>
-        </Col>
-        )}
-
-    </div>
-) : null;*/
-
+//Properties that is attached to the component from its parent
 NewsList.propTypes = {
-    newsarticlesPropp: PropTypes.array.isRequired,
-    visiblePropp: PropTypes.bool.isRequired
+    newsarticlesPropp: PropTypes.array,
+    visiblePropp: PropTypes.bool,
+    handleClickOnArticlePropp: PropTypes.func
 };
-
 
 export default NewsList;
-
-{/*<ListGroup>
- {newsarticlesPropp.map((article, i) => <ListGroupItem
- key={i}
- header={article.author}
- >
- {article.headline}
- <br/>
- <br/>
- {article.text}
-
- </ListGroupItem>
- )}
- </ListGroup>*/}

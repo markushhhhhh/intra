@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import {FormControl, ControlLabel} from 'react-bootstrap';
+
 import FileUploader from 'react-firebase-file-uploader';
 import database from './../../../database.js'
 

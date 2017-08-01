@@ -2,23 +2,21 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+
+//Bootstrap Components
 import {Navbar, NavItem, MenuItem, Nav, NavDropdown, Item} from 'react-bootstrap';
-import { Link } from 'react-router';
-//import {NavBar} from './headerComponents/NavBarComponent.js'
 import { LinkContainer, IndexLinkContainer } from 'react-router-bootstrap';
 
-
-
-
-
+//The Component
 const HeaderAdmin = ({
+                         //Properties that is attached to the component from its parent
                          userLogoutPropp
                      }) => (
-    <Navbar collapseOnSelect>
+    <Navbar collapseOnSelect fixedTop={true} >
         <Navbar.Header>
             <Navbar.Brand>
                 <IndexLinkContainer to="/">
-                    <img src="img/mandometer_logo2.png"/>
+                    <img src="/img/mandometer_logo2.png"/>
                 </IndexLinkContainer>
             </Navbar.Brand>
             <Navbar.Toggle />
@@ -33,6 +31,9 @@ const HeaderAdmin = ({
                 </LinkContainer>
                 <LinkContainer to="/board">
                     <NavItem eventKey={3}>Anslagstavla</NavItem>
+                </LinkContainer>
+                <LinkContainer to="/fourth">
+                    <NavItem eventKey={4}>Kafferast</NavItem>
                 </LinkContainer>
                 <NavDropdown eventKey={6} title="Mando" id="basic-nav-dropdown">
                     <IndexLinkContainer to="/profile">
@@ -57,10 +58,7 @@ const HeaderAdmin = ({
     </Navbar>
 );
 
-
-
-
-
+//Properties that is attached to the component from its parent. This makes sure its the correct format
 HeaderAdmin.propTypes = {
     userLogoutPropp: PropTypes.func.isRequired,
 };

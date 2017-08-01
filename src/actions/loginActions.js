@@ -1,39 +1,49 @@
+'use strict';
+
 import database from './../database.js'
 
+// In the actions is where an update of the initialState is made or a database call is made.
+//For all functions in the actionsfiles - depending on if the functions returns an object {...} or a function different measures are taken.
+// If the function returns an object, the data and info will be redirected to the reducer through the store where the initialState file is updated.
+// If the function returns a function it will just run as a usual function and not get connected with the store and reducer. In this app, if a function is returned that means that a
+// databse call si being made instead of updating the initialState. The individual components imports the necessary actions needed
+
+//Checks if the username and password exists and matches with a user in the database. If it does it dispatches and updates the initialstate.activeuser with the specific userdata.
 export function userLogin(activeUser) {
-    console.log('In userLoginAction');
-return function (dispatch) {
-    const userRef = database.database().ref('usersDB/users');
-    userRef.once('value', snapshot => {
-        const x = snapshot.forEach((childVariable) => {
-            console.log(childVariable.key, ' username');
-            console.log(childVariable.val().password, ' password');
-            if(activeUser.username === childVariable.key && activeUser.password === childVariable.val().password){
-                dispatch(userLoginSuccess({
-                    username: childVariable.val().username,
-                    firstname: childVariable.val().firstname,
-                    lastname: childVariable.val().lastname,
-                    title: childVariable.val().title,
-                    department: childVariable.val().department,
-                    email: childVariable.val().email,
-                    admin: childVariable.val().admin,
-                    newsadmin: childVariable.val().newsadmin}));
-                console.log('Login Success!');
-                return true;
+    return function (dispatch) {
+        const userRef = database.database().ref('usersDB/users');
+        userRef.once('value', snapshot => {
+            const x = snapshot.forEach((childVariable) => {
+                if(activeUser.username === childVariable.key && activeUser.password === childVariable.val().password){
+                    dispatch(userLoginSuccess({
+                        username: childVariable.val().username,
+                        firstname: childVariable.val().firstname,
+                        lastname: childVariable.val().lastname,
+                        title: childVariable.val().title,
+                        department: childVariable.val().department,
+                        email: childVariable.val().email,
+                        admin: childVariable.val().admin,
+                        newsadmin: childVariable.val().newsadmin,
+                        profileimgURL: childVariable.val().profileimgURL}));
+                    console.log('Login Success!');
+                    return true;
+                }
+            });
+            if (x !== true){
+                alert('Fel användarnamn eller lösenord, försök igen...');
             }
         });
-        if (x !== true){
-            alert('Fel användarnamn eller lösenord, försök igen...');
-        }
-    });
+    }
 }
-}
+
+//Logout action
 export function userLogout() {
     return{
         type: 'USER_LOGOUT'
     }
 }
 
+//Updates the active userdata
 export function updateActiveUser(obj) {
     console.log('In updateActiveUser', obj)
     return {
@@ -42,47 +52,10 @@ export function updateActiveUser(obj) {
     }
 }
 
+//updates the initialstate with the userdata fetched from the database
 function userLoginSuccess(permission){
     return {
         type: 'USER_LOGIN_SUCCESS',
         payload: permission
     }
 }
-
-/*
-export function testActionData(data) {
-    console.log('in testActionData');
-    return {
-        type: 'TEST1',
-        payload: data
-    };
-}
-
-export function testDatabasePush(data) {
-    return function () {
-
-        const testDatabasePushRef = database.database().ref('databasetest');
-        testDatabasePushRef.push(data);
-    }
-}
-
-export function subscribeToTestData() {
-    return function (dispatch) {
-        const dataRef = database.database().ref('databasetest');
-        dataRef.on('value', snapshot => {
-            const currentData = [];
-            snapshot.forEach((childVariable) => {
-                currentData.push(childVariable.val())
-            });
-            dispatch(receiveData(currentData))
-        });
-
-    }
-}
-
-export function receiveData(data) {
-    return{
-        type: 'RECEIVE_DATA',
-        payload: data
-    }
-}*/

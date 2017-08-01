@@ -1,16 +1,18 @@
 <!DOCTYPE>
 <html>
 <head>
-    <title>Hello redux</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-markdown.min.css">
-    <link href="css/navbar.css" rel="stylesheet">
-    <link href="css/content.css" rel="stylesheet">
-    <script src="https://use.fontawesome.com/43d0a070a2.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0" />
+    <title>Mando Intranät</title> <!-- Title in the browser tab -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"> <!-- the bootstrap css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-markdown.min.css"> <!-- bootstrap for the markdown-editor(used so the user can style the text in the news -->
+    <link href="/css/navbar.css" rel="stylesheet" type="text/css"> <!-- css stylings for the navbar -->
+    <link href="/css/content.css" rel="stylesheet" type="text/css"> <!-- css stylings for the app -->
+    <script src="https://use.fontawesome.com/43d0a070a2.js"></script> <!-- used in the markdown-editor, icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0" /> <!-- makes it mobile friendly -->
 </head>
 <body>
-<div id="app"></div>
-<script src="bundle.js"></script>
+<div id="app"></div> <!-- in this div all the apps content is rendered-->
+
+<script  src="/bundle.js"></script> <!--this is the entrypint for bundle.js, the file app.js that webpack has translated from javascript to a html friendly language (app.js becomes bundle.js -->
+
 </body>
 </html>

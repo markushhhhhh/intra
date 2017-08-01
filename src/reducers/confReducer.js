@@ -29,7 +29,8 @@ export default function confReducer(state = initState.conf, action) {
                     email: '',
                     password: '',
                     admin: false,
-                    newsadmin: false
+                    newsadmin: false,
+                    profileimgURL: ''
                 },
                 oldusername: ''
             };

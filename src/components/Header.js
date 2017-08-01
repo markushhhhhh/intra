@@ -2,23 +2,21 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+
+//Bootstrap Components
 import {Navbar, NavItem, MenuItem, Nav, NavDropdown, Item} from 'react-bootstrap';
-import { Link } from 'react-router';
-//import {NavBar} from './headerComponents/NavBarComponent.js'
 import { LinkContainer, IndexLinkContainer } from 'react-router-bootstrap';
 
-
-
-
-
+//The Component
 const Header = ({
+                   //Properties that is attached to the component from its parent
                     userLogoutPropp
                 }) => (
     <Navbar collapseOnSelect>
         <Navbar.Header>
             <Navbar.Brand>
                 <LinkContainer to="/">
-                    <img src="img/mandometer_logo2.png"/>
+                    <img src="/img/mandometer_logo2.png"/>
                 </LinkContainer>
             </Navbar.Brand>
             <Navbar.Toggle />
@@ -34,8 +32,9 @@ const Header = ({
                 <LinkContainer to="/third">
                     <NavItem eventKey={3}>Anslagstavla</NavItem>
                 </LinkContainer>
-
-
+                <LinkContainer to="/fourth">
+                    <NavItem eventKey={4}>Kafferast</NavItem>
+                </LinkContainer>
 
                 <NavDropdown eventKey={6} title="Mando" id="basic-nav-dropdown">
                     <LinkContainer to="/profile">
@@ -47,7 +46,6 @@ const Header = ({
                     {/*<MenuItem eventKey={3.2}>Another action</MenuItem>*/}
                     {/*<MenuItem eventKey={3.3}>Something else here</MenuItem>*/}
                     {/*<MenuItem divider />*/}
-                    {/*<MenuItem eventKey={3.3}>Separated link</MenuItem>*/}
                 </NavDropdown>
             </Nav>
             <Nav pullRight>
@@ -57,10 +55,7 @@ const Header = ({
     </Navbar>
 );
 
-
-
-
-
+//Properties that is attached to the component from its parent. This makes sure its the correct format
 Header.propTypes = {
     userLogoutPropp: PropTypes.func.isRequired,
 };
