@@ -73,7 +73,26 @@
 
 }
 
+.profilePageHeader{
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: -15px;
+}
 
+.profilePageLabel{
+    background-color: darkseagreen;
+}
+
+.profilePageImgCol{
+    min-inline-size: 150px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.profilePageInfo{
+    margin-top: 3%;
+}
 
 
 /*

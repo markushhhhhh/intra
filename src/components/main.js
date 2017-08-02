@@ -1,6 +1,6 @@
 'use strict';
 
-import React from 'react';
+import React, {Component} from 'react';
 import {Jumbotron, Grid} from 'react-bootstrap'; //Imported Bootstrap components
 
 import HeaderAdmin from './HeaderAdmin.js'
@@ -18,7 +18,7 @@ import {userLogin, userLogout, updateActiveUser} from './../actions/loginActions
 
 //Creates the Main component
 //Its children are all components except app.js
-class Main extends React.Component{
+class Main extends Component{
 
 
     render(){
@@ -66,7 +66,7 @@ class Main extends React.Component{
                         userLogoutPropp={this.props.userLogout}
                     />
                     <div>{/*Everything below the navbar*/}
-                        <Jumbotron>
+                        <Jumbotron className="Jumbo1">
                             <Grid>
                                 {this.props.children} {/*this is the place that all the childroutes are rendered*/}
                             </Grid>

@@ -5,6 +5,9 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux'; //Imported to connect the initialstate to the component
 import {bindActionCreators} from 'redux'; //Imported to connect the actions to the component
 
+//Imported Bootstrap components
+import {Row, Label} from 'react-bootstrap';
+
 //Imported actions
 import {updateUserToConf, getUserToConf, updateUserInDB, profileImgUpload} from './../../actions/configureUserActions.js'
 import {updateActiveUser} from './../../actions/loginActions.js'
@@ -31,10 +34,16 @@ class ProfilePage extends Component {
 
     render(){
 
-        var childrenWithProps = React.cloneElement(this.props.children, {...this.props}); //Connects all children to this component with the same properties as this component has.
+        var childrenWithProps = React.cloneElement(this.props.children, {...this.props}); //Connects all children to this component with the same properties(props) as this component has.
         // for example can the children to this component also use this.props.activeuser to access the data in activeuser that resides in the initialState
         return(
             <div>
+                <Row className="profilePageHeader">
+                    <h2><Label className="profilePageLabel">
+                {this.props.activeuser.firstname + ' ' + this.props.activeuser.lastname}
+                    </Label></h2>
+                </Row>
+                <br/>
                 <ProfilePageButtons />
                 {childrenWithProps}
             </div>

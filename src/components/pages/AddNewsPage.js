@@ -1,29 +1,31 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+'use strict';
+
+import React, {Component} from 'react';
+
+//Imported components, also its children
 import AddNewsForm from './addnewspageComp/AddNewsForm.js';
 import FileUploaderComp from './addnewspageComp/FileUploader.js';
-import database from './../../database.js'
 
+//Imported Bootstrap Components
 import {Button} from 'react-bootstrap';
 
+//imported to handle the markdown feature, makes it possible for the user to style the text in the article
 import { ReactMde, ReactMdeCommands } from 'react-mde';
 
-class AddNewsPage extends React.Component {
+//Creates the Component AddNewsPageComponent, its children are AddNewsForm and FileUploaderComp
+//AddNewsPageComponent has the same properties(props) as AdminPageComponent
+class AddNewsPage extends Component {
 
+    //Handles the text in the article and updates the initialsState with new text
+    handleValueChange = (value) => {
+        const article = {...this.props.notpostedarticle,
+            text: value
+        };
+        this.props.updateNotPostedArticle(article)
+    }
 
-componentDidMount(){
-    console.log(this.props.activeuser, ' ACTIVEUSER');
-}
-
-handleValueChange = (value) => {
-    const article = {...this.props.notpostedarticle,
-        text: value
-    };
-    this.props.updateNotPostedArticle(article)
-}
-
-
-handleTextInput = (event) => {
+    //Handles the text input in the other text fields
+    handleTextInput = (event) => {
         let obj = {};
         let field = event.target.name;
         let val = event.target.value;
@@ -31,8 +33,7 @@ handleTextInput = (event) => {
         this.props.updateNotPostedArticle(obj);
     };
 
-
-
+    //When the submit button is pressed, the data from the form is fetched and sent to the database to add the new article in the database
     processForm = (event) => {
         // prevent default action. in this case, action is the form submission event
         event.preventDefault();
@@ -48,16 +49,17 @@ handleTextInput = (event) => {
         this.props.addArticleToDB(article)
     };
 
-   onSubmitTest = (event) => {
-       console.log('ON SUBMIT TEST !!');
-   };
+    onSubmitTest = (event) => {
+        console.log('ON SUBMIT TEST !!');
+    };
 
-   handleUploadSuccess = (filename) => {
-       this.props.imgUpload(filename);
-       //console.log(database.storage().ref('images'));
-       //database.storage().ref('images').child(filename).getDownloadURL().then(url =>
-       //this.props.updateNotPostedArticle({imgURL: url})
-   };
+    //Handles the imageupload in AddNewsForm
+    handleUploadSuccess = (filename) => {
+        this.props.imgUpload(filename);
+        //console.log(database.storage().ref('images'));
+        //database.storage().ref('images').child(filename).getDownloadURL().then(url =>
+        //this.props.updateNotPostedArticle({imgURL: url})
+    };
 
     render() {
         let commands = ReactMdeCommands.getDefaultCommands();

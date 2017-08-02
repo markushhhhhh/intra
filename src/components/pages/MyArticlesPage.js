@@ -1,7 +1,12 @@
-import React from 'react';
-import ArticleList from './myarticlespageComp/ArticleList.js'
+'use strict';
 
-class MyArticlesPage extends React.Component {
+import React, {Component} from 'react';
+
+import ArticleList from './myarticlespageComp/ArticleList.js'; //Imports its child ArticleList
+
+//This component has the same properties("props") as ProfilePage.js
+//Creates the MyArticlesPageComponent
+class MyArticlesPage extends Component {
 
     //Handles a click on delete in ArticleList, it deletes the article
     handleClickOnDeleteArticle = (aid) => {
@@ -9,10 +14,7 @@ class MyArticlesPage extends React.Component {
     };
 
     render() {
-
         return (
-
-
             <div>
                 Mina Artiklar
                 <ArticleList
@@ -22,9 +24,7 @@ class MyArticlesPage extends React.Component {
                 />
             </div>
         );
-
     }
-
 }
 
 export default MyArticlesPage;

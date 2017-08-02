@@ -15,5 +15,5 @@ app.get('*', function(req, res){
 
 
 app.listen(3000, function(){
-    console.log('App web-server listening onport 3000');
+    console.log('App web-server listening on port 3000');
 });

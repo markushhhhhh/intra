@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
 import LoginForm from './loginpageComp/LoginForm.js'
 
 const Router = require('react-router');
 
-class LoginPage extends React.Component {
+class LoginPage extends Component {
 
 
     handleTextInput = (event) => {

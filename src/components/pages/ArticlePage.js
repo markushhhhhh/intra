@@ -1,4 +1,6 @@
-import React from 'react';
+'use strict';
+
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
 import {connect} from 'react-redux'; //Imported to connect the initialstate to the component
@@ -6,10 +8,10 @@ import {connect} from 'react-redux'; //Imported to connect the initialstate to t
 import showdown from 'showdown' //Converts the string to HTML code
 
 //Imports Bootstrap components
-import { Image, Col, Row, Jumbotron} from 'react-bootstrap';
+import { Image, Col, Row, Jumbotron } from 'react-bootstrap';
 
-//Creates the ArticlePageComponent
-class ArticlePage extends React.Component {
+//Creates the ArticlePageComponent, its parent is Main. it has no children
+class ArticlePage extends Component {
     render() {
         //traverses trough the array(newsArticle) and returns the specific article with the specific articledata in its element, the articleNode
         const articleNode = this.props.newsarticles.map((article, i) =>{

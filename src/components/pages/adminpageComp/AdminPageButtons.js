@@ -1,13 +1,16 @@
+'use strict';
+
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Link } from 'react-router';
+//Imported Bootstrap components
 import {ButtonGroup, Button} from 'react-bootstrap';
 import { LinkContainer, IndexLinkContainer } from 'react-router-bootstrap';
 
 
-
+//Creates the AdminPageButtonsComponent
 const AdminPageButtons = ({
+                              //Properties(props) that is attached to the component from its parent
                               renderPropp
                           }) => (
     <ButtonGroup>
@@ -31,9 +34,9 @@ const AdminPageButtons = ({
     </ButtonGroup>
 );
 
-
+//Properties(props) that is attached to the component from its parent. This makes sure the properties(props) are the correct format
 AdminPageButtons.propTypes = {
-    renderPropp: PropTypes.func.isRequired,
+    renderPropp: PropTypes.func
 };
 
 export default AdminPageButtons;

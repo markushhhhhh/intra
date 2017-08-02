@@ -1,25 +1,26 @@
+'use strict';
+
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {FormControl, ControlLabel} from 'react-bootstrap';
+//Imported Bootstrap components
+import { ControlLabel} from 'react-bootstrap';
+
+//imported to handle the file upload
 import FileUploader from 'react-firebase-file-uploader';
+
+//imports access to the database
 import database from './../../../database.js'
 
-
+//Creates the FileUploaderComponent, its parent is AddUserPageComponent
 const FileUploaderComp2 = ({
-                              userPropp,
+                               //Properties that is attached to the component from its parent
+                               userPropp,
                               handleUploadSuccessPropp,
                               handleTextInputPropp
                           }) => (
     <div>
         <ControlLabel>Profilbild</ControlLabel>
-        {/*<FormControl
-         type="text"
-         placeholder="Bildtext..."
-         name="imgheadline"
-         value={userPropp.imgheadline}
-         onChange={handleTextInputPropp}
-         />*/}
         <FileUploader
             accept="image/*"
             name="avatar"
@@ -30,6 +31,7 @@ const FileUploaderComp2 = ({
     </div>
 );
 
+//Properties that is attached to the component from its parent. This makes sure the properties are the correct format
 FileUploaderComp2.propTypes = {
     userPropp: PropTypes.object,
     handleUploadSuccessPropp: PropTypes.func,

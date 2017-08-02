@@ -1,20 +1,21 @@
+'use strict';
+
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {FormGroup, FormControl, ControlLabel, Col, Row, HelpBlock, Button} from 'react-bootstrap';
-
-import FileUploader from 'react-firebase-file-uploader';
-
-import database from './../../../database.js'
+//Imported Bootstrap components
+import { FormControl, ControlLabel, Col, Row } from 'react-bootstrap';
 
 
+//Creates the AddNewsFormComponent, its parent is AddNewsPageComponent
 const AddNewsForm = ({
+                         //Properties that is attached to the component from its parent
                          onSubmitPropp,
                          activeuserPropp,
                          handleTextInputPropp,
-                        notpostedarticlePropp,
-                        onSubmitTestPropp,
-                        handleUploadSuccessPropp
+                         notpostedarticlePropp,
+                         onSubmitTestPropp,
+                         handleUploadSuccessPropp
                      }) =>  (
     <div>
         <Row>
@@ -38,16 +39,17 @@ const AddNewsForm = ({
             </Col>
         </Row>
         <ControlLabel>Rubriktitel</ControlLabel>
-            <FormControl
-                type="text"
-                placeholder="Titel..."
-                name="headline"
-                value={notpostedarticlePropp.headline}
-                onChange={handleTextInputPropp}
-            />
+        <FormControl
+            type="text"
+            placeholder="Titel..."
+            name="headline"
+            value={notpostedarticlePropp.headline}
+            onChange={handleTextInputPropp}
+        />
 
     </div> );
 
+//Properties that is attached to the component from its parent. This makes sure the properties are the correct format
 AddNewsForm.propTypes = {
     onSubmitPropp: PropTypes.func,
     activeuserPropp: PropTypes.object,

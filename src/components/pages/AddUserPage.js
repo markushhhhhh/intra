@@ -1,24 +1,27 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+'use strict';
+
+import React, {Component} from 'react';
+
+//Imported components, also its children
 import AddUserForm2 from './adduserpageComp/AddUserForm2.js';
 import FileUploaderComp2 from './adduserpageComp/FileUploader2.js';
-import {Button} from 'react-bootstrap';
 
-class AddUserPage extends React.Component {
+//Imported Bootstrap Components
+import { Button } from 'react-bootstrap';
 
-    /**
-     * Class constructor
-     */
+//Creates the Component AddUserPageComponent, its children are AddUserForm2 and FileUploader2
+//AddUserPageComponent has the same properties(props) as AdminPageComponent
+class AddUserPage extends Component {
     constructor(props) {
         super(props);
-
-        //Set the initial component state
     }
 
+    //Funcction that runs everytime the component has rendered
     componentDidMount(){
         this.props.resetUser();
     }
 
+    //Handles the text input in the AddUserForm
     handleTextInput = (event) => {
         let obj = {};
         let field = event.target.name;
@@ -27,7 +30,7 @@ class AddUserPage extends React.Component {
         this.props.updateUserToConf(obj);
     };
 
-
+    //Handles the selection of department in the AddUserForm
     handleSelectInput = (event, index, value)  => {
         let obj = {};
         let field = 'department';
@@ -38,6 +41,7 @@ class AddUserPage extends React.Component {
         this.props.updateUserToConf(obj);
     };
 
+    //handles the checkbox input, admin newsadmin, in the AddUserForm
     handleCheckboxInput = (event) => {
         let obj = {};
         let field = event.target.name;
@@ -46,14 +50,15 @@ class AddUserPage extends React.Component {
         this.props.updateUserToConf(obj);
     };
 
+    //When the submit button is pressed, the data from the form is fetched and sent to the database to add the new user in the database
     processForm = (event) => {
         // prevent default action. in this case, action is the form submission event
         event.preventDefault();
-        //this.props.firebasePromise();
         console.log(event.target.name);
-            this.props.addUserToDB(this.props.user)
+        this.props.addUserToDB(this.props.user)
     };
 
+    //Handles the imageupload in FileUploaderComp
     handleUploadSuccess = (filename) => {
         //this.props.imgUpload(filename);
         this.props.profileImgUpload(filename);
@@ -79,9 +84,7 @@ class AddUserPage extends React.Component {
                 <Button className="btn btn-primary btn-large centerButton" onClick={this.processForm}>Skapa Ny Användare</Button>
             </div>
         );
-
     }
-
 }
 
 export default AddUserPage;

@@ -1,5 +1,5 @@
 'use strict';
-import React from 'react';
+import React, {Component} from 'react';
 
 import {connect} from 'react-redux'; //Imported to connect the initialstate to the component
 import {bindActionCreators} from 'redux'; //Imported to connect the actions to the component
@@ -15,7 +15,7 @@ import {Grid} from 'react-bootstrap';
 
 //Creates the NewsPageComponent
 //Its children are NewsList.js located in newsPageComp
-class NewsPage extends React.Component{
+class NewsPage extends Component{
 
     //Function that executes everytime this component have been rendered
     componentDidMount(){

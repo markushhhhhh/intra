@@ -1,11 +1,15 @@
+'use strict';
+
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {FormGroup, ControlLabel, FormControl, HelpBlock, Button, Checkbox} from 'react-bootstrap';
+//Imported Bootstrap components
+import { ControlLabel, FormControl, Checkbox} from 'react-bootstrap';
 
-
+//Creates the AddUserFormComponent, its parent is AddUserPageComponent
 const AddUserForm2 = ({
-                         onSubmitPropp,
+                          //Properties that is attached to the component from its parent
+                          onSubmitPropp,
                          handleTextInputPropp,
                          handleCheckboxInputPropp,
                          handleSelectInputPropp,
@@ -104,12 +108,13 @@ const AddUserForm2 = ({
         </form>
     );
 
+//Properties that is attached to the component from its parent. This makes sure the properties are the correct format
 AddUserForm2.propTypes = {
-    onSubmitPropp: PropTypes.func.isRequired,
-    handleTextInputPropp: PropTypes.func.isRequired,
-    handleCheckboxInputPropp: PropTypes.func.isRequired,
-    handleSelectInputPropp: PropTypes.func.isRequired,
-    userPropp: PropTypes.object.isRequired,
+    onSubmitPropp: PropTypes.func,
+    handleTextInputPropp: PropTypes.func,
+    handleCheckboxInputPropp: PropTypes.func,
+    handleSelectInputPropp: PropTypes.func,
+    userPropp: PropTypes.object,
 };
 
 export default AddUserForm2;

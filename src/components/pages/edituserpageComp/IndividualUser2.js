@@ -1,10 +1,15 @@
+'use strict';
+
 import React from 'react';
 import PropTypes from 'prop-types';
 
+//Imported Bootstrap components
+import { ControlLabel, FormControl, HelpBlock, Button, Checkbox} from 'react-bootstrap';
 
-import {FormGroup, ControlLabel, FormControl, HelpBlock, Button, Checkbox} from 'react-bootstrap';
 
+//Creates the IndividualUserComponent, its parent is EditUserPageComponent
 const IndividualUser = ({
+                            //Properties that is attached to the component from its parent
                             onSubmitPropp,
                             handleTextInputPropp,
                             handleCheckboxInputPropp,
@@ -14,8 +19,7 @@ const IndividualUser = ({
                             oldusernamePropp,
                             visiblePropp
                         }) => (visiblePropp === true) ? (
-<form name="updateuser">
-
+    <form name="updateuser">
 
         <ControlLabel>Användare</ControlLabel>
         <FormControl.Static>
@@ -117,8 +121,9 @@ const IndividualUser = ({
             onClick={handleDeletePropp}
         >Radera</Button>
 
-</form>) : null;
+    </form>) : null;
 
+//Properties that is attached to the component from its parent. This makes sure the properties are the correct format
 IndividualUser.propTypes = {
     onSubmitPropp: PropTypes.func,
     handleTextInputPropp: PropTypes.func,

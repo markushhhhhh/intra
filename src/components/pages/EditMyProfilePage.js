@@ -1,22 +1,25 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import UserList from './edituserpageComp/UserList.js';
-import IndividualUser2 from './edituserpageComp/IndividualUser2.js';
-import AddUserForm2 from './adduserpageComp/AddUserForm2.js';
+'use strict';
 
+import React, {Component} from 'react';
+
+//Imports the component used to upload images
 import FileUploaderComp3 from './edituserpageComp/FileUploader3.js'
 
-import {FormGroup, ControlLabel, FormControl, HelpBlock, Button, Checkbox, Col, Image, Row} from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
+//Imports Bootstrap components
+import { ControlLabel, FormControl, Button, Col, Image, Row} from 'react-bootstrap';
 
 const Router = require('react-router');
 
-class EditMyProfilePage extends React.Component {
+//Creates the EditMyProfilePageComponent
+//This component has the same properties(props) as ProfilePage.js, its parent
+class EditMyProfilePage extends Component {
 
+    //Everytime the component renders this function runs and fetches the activeuser data
     componentDidMount(){
         this.props.getUserToConf(this.props.activeuser)
     }
 
+    //Handles the inputs in the form
     handleTextInput = (event) => {
         let obj = {};
         let field = event.target.name;
@@ -25,6 +28,7 @@ class EditMyProfilePage extends React.Component {
         this.props.updateUserToConf(obj);
     };
 
+    //When the update button is pressed, the data from the form is fetched and sent to the database to update the current user in the database
     processForm = (event) => {
         // prevent default action. in this case, action is the form submission event
         event.preventDefault();
@@ -35,6 +39,7 @@ class EditMyProfilePage extends React.Component {
         Router.browserHistory.push('/profile')
     };
 
+    //Handles the upload of the image and adds it to the database
     handleUploadSuccess = (filename) => {
         //this.props.imgUpload(filename);
         this.props.profileImgUpload(filename);

@@ -37,7 +37,7 @@ const HeaderAdmin = ({
                 </LinkContainer>
                 <NavDropdown eventKey={6} title="Mando" id="basic-nav-dropdown">
                     <IndexLinkContainer to="/profile">
-                        <NavItem eventKey={6.1}>Profil</NavItem>
+                        <NavItem eventKey={6.1}>Min Sida</NavItem>
                     </IndexLinkContainer>
                     <LinkContainer to="/coworkers">
                         <NavItem eventKey={6.2}>Medarbetare</NavItem>
