@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: './src/app.js', //Entrypoint of the app, what code to read
+    entry: ['babel-polyfill', './src/app.js'], //Entrypoint of the app, what code to read
     output: { //tells webpack where to output the bundled file
         path: path.resolve(__dirname, 'public'),
         filename: 'bundle.js'
